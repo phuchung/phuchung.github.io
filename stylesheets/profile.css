@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-/* FRACKING CSS - LINDA DONG */
-
 /* General */
 
 html, body {
@@ -11,7 +9,7 @@ padding: 0;
 
 body {
 background: #eaecea;
-font-family: helvetica;
+font-family:Helvetica Neue;
 }
 
 	body a {
@@ -80,7 +78,7 @@ hgroup {z-index: 10;}
 
 		h1 {
 		text-align: center;
-		font-family: adrianna-extended-1,adrianna-extended-2, sans-serif;
+		/* font-family: adrianna-extended-1,adrianna-extended-2, sans-serif; */
 		font-size: 72px;
 		color: #fff;
 		font-weight: 500;
@@ -90,7 +88,7 @@ hgroup {z-index: 10;}
 
 		h2 {
 		text-align: center;
-		font-family:baskerville, caslon, serif;
+		/* font-family:baskerville, caslon, serif; */
 		color: #111;
 		text-transform: none;
 		font-weight: 100;
@@ -102,7 +100,7 @@ hgroup {z-index: 10;}
 		h3 {
 		position:relative;
 		text-align: center;
-		font-family: adrianna-extended-1,adrianna-extended-2, sans-serif;
+		/* font-family: adrianna-extended-1,adrianna-extended-2, sans-serif; */
 		font-size: 20px;
 		color: #111;
 		font-weight: 500;
@@ -120,7 +118,7 @@ hgroup {z-index: 10;}
 
 		h4 {
 		text-align: center;
-		font-family: adrianna-extended-1,adrianna-extended-2, sans-serif;
+		/* font-family: adrianna-extended-1,adrianna-extended-2, sans-serif; */
 		font-size: 20px;
 		color: #111;
 		font-weight: 500;
@@ -146,7 +144,7 @@ z-index: 900;
 p {
 font-size: 19px;
 line-height: 26px;
-font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, Times;
+/* font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, Times; */
 font-weight: normal;
 text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
@@ -192,7 +190,7 @@ figure#drop {
 	#toxin {
 	width: 36px;
 	height: 46px;
-	background: url(Fracking/toxin.png);
+	background: url(toxin.png);
 	position: absolute;
 	top: 7500px;
 	z-index: 202;
@@ -203,7 +201,7 @@ figure#drop {
 /* 1. Sky */
 
 section#sky {
-background:url(Fracking/noise.png) #79c5ce;
+background: #79c5ce;
 height: 1600px;
 width: 100%;
 padding: 200px 0 0 0;
@@ -298,7 +296,7 @@ z-index:200;
 
 section#highway {
 position: relative;
-background: #8ba341 url(Fracking/noise.png);
+background: #8ba341;
 height: 3400px;
 width: 100%;
 padding-top: 300px;
@@ -394,7 +392,7 @@ padding-top: 300px;
 	left: 50%;
 	margin-left: -250px;
 	z-index:200;
-	background: #8ba341 url(Fracking/noise.png);
+	background: #8ba341  ;
 	}
 
 		#bridge {
@@ -403,7 +401,7 @@ padding-top: 300px;
 		height: 300px;
 		top:280px;
 		z-index: 201;
-		background:url(Fracking/noise.png) #7d9338;
+		background:  #7d9338;
 		}
 
 		#tunneltop {
@@ -426,7 +424,7 @@ padding-top: 300px;
 		position: absolute;
 		top: 565px;
 		z-index: 0;
-		background:url(Fracking/noise.png) #7d9338;
+		background:  #7d9338;
 		width: 100%;
 		height: 100px;
 		}
@@ -477,7 +475,7 @@ padding-top: 300px;
 	top: 3950px;
 	left: 50%;
 	margin-left: -250px;
-	background:url(Fracking/dirtroad.png) repeat;
+	background:url( dirtroad.png) repeat;
 	height: 500px;
 	width: 500px;
 	z-index: 100;
@@ -487,7 +485,7 @@ padding-top: 300px;
 
 section#fracksite {
 position: relative;
-background: #8ba341 url(Fracking/noise.png);
+background: #8ba341  ;
 height: 1110px;
 width: 100%;
 }
@@ -513,7 +511,7 @@ width: 100%;
 	}
 
 		#sitecontain {
-		background:url(Fracking/dirtroad.png) repeat;
+		/* background:url( dirtroad.png) repeat; */
 		position: absolute;
 		top: 0;
 		width: 1420px;
@@ -535,7 +533,7 @@ width: 100%;
 
 section#ground {
 position: relative;
-background: url(Fracking/noise.png) #92cbd3;
+background:   #92cbd3;
 height: 1100px;
 width: 100%;
 z-index: 200;
@@ -642,9 +640,8 @@ margin-bottom: -25px;
 
 section#ground2 {
 position: relative;
-background-image: url(Fracking/rocks.png), -webkit-linear-gradient(top, #9f8750, #7a5c35);
-background-image: #9f8750, url(Fracking/rocks.png);
-background-image: url(http://dangersoffracking.com/Fracking/rocks.png), url(svg/ground2.svg); /* added */
+background-image: url( rocks.png), -webkit-linear-gradient(top, #9f8750, #7a5c35);
+background-image: #9f8750, url( rocks.png);
 height: 1050px;
 width: 100%;
 z-index: 199;
@@ -665,7 +662,7 @@ z-index: 199;
 	width: 90px;
 	height: 14000px;
 	background: -webkit-linear-gradient(right,#333, #111);
-	background: url(svg/pipe2.svg); /* added */
+
 	z-index: 199;
 	border-left: 10px #cfc9be solid;
 	border-right: 10px #cfc9be solid;
@@ -683,9 +680,9 @@ z-index: 199;
 
 section#ground3 {
 position: relative;
-background-image: url(Fracking/rocks.png), -webkit-linear-gradient(top, #7a5c35, #564229);
-background-image: #7a5c35, url(Fracking/rocks.png);
-background-image: url(http://dangersoffracking.com/Fracking/rocks.png), url(svg/ground3.svg); /* added */
+background-image: url( rocks.png), -webkit-linear-gradient(top, #7a5c35, #564229);
+background-image: #7a5c35, url( rocks.png);
+
 height: 1220px;
 width: 100%;
 
@@ -693,10 +690,10 @@ width: 100%;
 
 section#ground4 {
 position: relative;
-background-image: url(Fracking/rocks.png), -webkit-linear-gradient(top,#564229, #41311c);
-background-image: #564229 url(Fracking/rocks.png);
-background-image: url(http://dangersoffracking.com/Fracking/rocks.png), url(svg/ground4.svg); /* added */
-height: 1500px;
+background-image: url( rocks.png), -webkit-linear-gradient(top,#564229, #41311c);
+background-image: #564229 url( rocks.png);
+
+dheight: 1500px;
 width: 100%;
 }
 
@@ -735,16 +732,16 @@ width: 100%;
 
 section#aquifer {
 position: relative;
-background: #30747e url(Fracking/curve.png);
+background: #30747e url( curve.png);
 height: 1400px;
 width: 100%;
 }
 
 section#ground5 {
 position: relative;
-background-image: url(Fracking/rocks2.png), -webkit-linear-gradient(top,#41311c, #322515);
-background-image: #41311c url(Fracking/rocks2.png);
-background-image: url(http://dangersoffracking.com/Fracking/rocks2.png), url(svg/ground5.svg); /* added */
+background-image: url( rocks2.png), -webkit-linear-gradient(top,#41311c, #322515);
+background-image: #41311c url( rocks2.png);
+
 height: 850px;
 width: 100%;
 }
@@ -762,9 +759,9 @@ width: 100%;
 
 section#ground6 {
 position: relative;
-background-image:  url(Fracking/rocks2.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#322515), to(#41311c), color-stop(.5,#322515));
-background-image: #322515 url(Fracking/rocks2.png);
-background-image: url(http://dangersoffracking.com/Fracking/rocks2.png), url(svg/ground6.svg); /* added */
+background-image:  url( rocks2.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#322515), to(#41311c), color-stop(.5,#322515));
+background-image: #322515 url( rocks2.png);
+
 height: 1300px;
 width: 100%;
 top: -20px;
@@ -826,7 +823,7 @@ padding-bottom: 0;
 	width: 160px;
 	height: 160px;
 	top: 600px;
-	background:url(Fracking/meter.png);
+	background:url( meter.png);
 	}
 
 		#ground6 h3 {margin-top: 70px;}
@@ -847,9 +844,9 @@ padding-bottom: 0;
 
 section#ground7 {
 position: relative;
-background-image: url(Fracking/rocks2.png), -webkit-linear-gradient(top,#41311c, #564229);
-background-image: #41311c url(Fracking/rocks2.png);
-background-image: url(http://dangersoffracking.com/Fracking/rocks2.png), url(svg/ground7.svg); /* added */
+background-image: url( rocks2.png), -webkit-linear-gradient(top,#41311c, #564229);
+background-image: #41311c url( rocks2.png);
+
 height: 1000px;
 width: 100%;
 top: -20px;
@@ -865,7 +862,7 @@ top: -20px;
 
 section#aquifer2 {
 position: relative;
-background: #30747e url(Fracking/curve.png);
+background: #30747e url( curve.png);
 height: 1300px;
 width: 100%;
 top: -20px;
@@ -957,9 +954,9 @@ top: -20px;
 
 section#ground8 {
 position: relative;
-background-image: url(Fracking/rocks.png), -webkit-linear-gradient(top,#564229, #7a5c35);
-background-image: #564229 url(Fracking/rocks.png);
-background-image: url(http://dangersoffracking.com/Fracking/rocks.png), url(svg/ground8.svg); /* added */
+background-image: url( rocks.png), -webkit-linear-gradient(top,#564229, #7a5c35);
+background-image: #564229 url( rocks.png);
+
 height: 1200px;
 width: 100%;
 margin-top: -20px;
@@ -991,16 +988,16 @@ margin-top: -20px;
 
 section#ground9 {
 position: relative;
-background-image: url(Fracking/rocks.png), -webkit-linear-gradient(top,#7a5c35, #9f8750);
-background-image: #7a5c35 url(Fracking/rocks.png);
-background-image: url(http://dangersoffracking.com/Fracking/rocks.png), url(svg/ground9.svg); /* added */
+background-image: url( rocks.png), -webkit-linear-gradient(top,#7a5c35, #9f8750);
+background-image: #7a5c35 url( rocks.png);
+
 height: 1000px;
 width: 100%;
 }
 
 section#ground10 {
 position: relative;
-background: #9f8750 url(Fracking/rocks.png);
+background: #9f8750 url( rocks.png);
 height: 900px;
 width: 100%;
 }
@@ -1018,7 +1015,7 @@ width: 100%;
 
 section#ground11 {
 position: relative;
-background: url(Fracking/noise.png) #92cbd3;
+background:   #92cbd3;
 height: 1100px;
 width: 100%;
 z-index: 200;
@@ -1139,7 +1136,7 @@ margin-bottom: -25px;
 
 footer {
 position:relative;
-background: url(Fracking/noise.png) #92cbd3;
+background:   #92cbd3;
 height: 1600px;
 z-index:900;}
 
@@ -1191,7 +1188,7 @@ z-index:900;}
 	}
 
 		li {
-		font-family: helvetica, adrianna-extended-1,adrianna-extended-2, sans-serif;
+		/* font-family: helvetica, adrianna-extended-1,adrianna-extended-2, sans-serif; */
 		font-size: 13px;
 		margin: 5px;
 		}
@@ -1232,7 +1229,7 @@ z-index:900;}
 	margin-top: 10px;
     display: block;
     width: 300px;
-    background: url(Fracking/drop.png) no-repeat;
+    background: url( drop.png) no-repeat;
     height: 200px;
     position: absolute;
     left: 50%;
