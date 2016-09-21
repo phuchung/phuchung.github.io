@@ -1,228 +1,283 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-<html lang="en" class="wf-adriane1-i4-active wf-adriane1-n4-active wf-adriannaextended1-n3-active wf-adriannaextended1-n4-active wf-fftisawebpro1-i4-active wf-fftisawebpro1-i7-active wf-fftisawebpro1-n4-active wf-fftisawebpro1-n7-active wf-leaguegothic1-n4-active wf-p22undergroundpc1-n3-active wf-p22undergroundpc1-n4-active wf-p22undergroundpc1-n5-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>phuchung_profile</title>
-		<!--Style Sheets and Javascript-->
-		
-		<link rel="stylesheet" type="text/css" href="source/profile.css">
-		<script id="facebook-jssdk" src="./source/all.js"></script><script type="text/javascript" async="" src="./source/ga.js"></script><script type="text/javascript" src="./source/liu4hka.js"></script>
-		<!-- <style type="text/css">.tk-adrianna-extended{font-family:"adrianna-extended-1","adrianna-extended-2",sans-serif;}.tk-league-gothic{font-family:"league-gothic-1","league-gothic-2",helvetica;}.tk-ff-tisa-web-pro{font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Bodoni";}.tk-p22-underground-pc{font-family:"p22-underground-pc-1","p22-underground-pc-2",sans-serif;}.tk-adriane{font-family:"adriane-1","adriane-2",serif;}</style>
-		<link rel="stylesheet" href="./source/l" media="all">
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
-		<script type="text/javascript" src="./source/jquery-latest.js"></script>
-		<script type="text/javascript" src="./source/scroll.js"></script>
-		<script type="text/javascript" src="./source/jquery.tipTip.js"></script>
-		
+<head>
+
+	<title>profile - PhucHung</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Phuc Hung" />
+	<meta name="description" content="fullPage decription profile" />
+	<meta name="keywords"  content="cv,profile,portfolio,personale" />
+	<meta name="Resource-type" content="Document" />
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<link rel='stylesheet' type='text/css' href="css/style.css"  />
+	<link rel='stylesheet' type='text/css' href="css/bootstrap.css"/>
+
+	<!-- portfolio view image -->
+	<link rel="stylesheet"  type="text/css" media="screen" charset="utf-8" href="css/chocolat.css">
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+	<!-- portfolio view image -->
+	<script src="js/jquery.chocolat.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#A7FFEB', '#37474F', '#FFFFFF', '#37474F', '#E1F5FE','whitesmoke'],
+				anchors: ['home', 'about', 'experience', 'skill', 'port','contact'],
+				menu: '#menu',
+				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+
+			});
+
+		});
+	</script>
+</head>
 <body>
 
 
-<div id="wrapper">
+<ul id="menu">
+	<li data-menuanchor="home"><a href="#home">Home</a></li>
+	<li data-menuanchor="about"><a href="#about">About</a></li>
+	<li data-menuanchor="experience"><a href="#experience">Experience</a></li>
+	<li data-menuanchor="skill"><a href="#skill">Skill</a></li>
+	<li data-menuanchor="port"><a href="#port">Portfolio</a></li>
+		<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+</ul>
 
-	<!-- Sky -->
-	<section id="sky">
-
-		<hgroup>
-			<h2>hi !<br> 
-				my name is</h2>
-
+<div id="fullpage">
+	<!-- home -->
+	<div class="section home" id="section0">
 			<h1>NGUYEN PHUC HUNG</h1>
-		
-			<h2> I am a UX/UI designer </h2>
-			<h2 id="title">so let's Dive Down</h2>
-		</hgroup>
+		 <p>UX/UI Designer</p>
+		 <div class="scroll-down">
+			<h4>SCROLL DOWN</h4>
+		 <a class="downarrow scroll" href="#about"><span></span></a>
+		 </div>
+	</div>
+	<!-- end home -->
 
-		<figure id="drop" style="">
-			<img src="./source/drop.png" alt="">
-		</figure>
-			<div id="toxin" style="position: absolute; top: 7500px;"></div>
+	<!-- about -->
+	<div class="section" id="section1">
+		<div class="container">
+		<h3 class="tittle about">About Me</h3>
+			 <div class="col-md-5 ab-grid pic">
+		 <img src="images/ab.jpg" alt=" " title="avata">
+		 </div>
+		 <div class="col-md-7 ab-grid text">
+			 <h4>I am PhucHung, I live in Da Nang . I am Front end Developer, UI/UX Developer</h4>
+		<p>I graduated at Da Nang University Of Technology in Information Technology and finished a course about Web design and CCNA course in Truong Tan Group Training Center.</br>
+			 In addition, I have  experience of being developer front-end and freelancer design UX/UI , photography, painting</p>
 
-		<article id="description" style="display: none;">
-			<h3>EDUCATION HISTORY</h3>
-			<p>Graduated from Da Nang University Of Technology in Information Technology (2012), with over 2-years experience being a developer
-			</p>
-			<aside id="red" style="display: none;">
-				 <p><em> Top ten university</p>
-			</aside>
-		</article>
-
-		<img id="cloud1" src="./source/clouds.png" alt="" style="top: 350px;">
-		<img id="cloud2" src="./source/clouds4.png" alt="" style="top: 500px;">
-		<img id="cloud3" src="./source/clouds2.png" alt="" style="top: 590px;">
-		<img id="cloud4" src="./source/clouds3.png" alt="" style="top: 420px;">
-		<img id="cloud5" src="./source/clouds4.png" alt="" style="top: 775px;">
-		<img id="cloud6" src="./source/clouds3.png" alt="" style="top: 1550px;">
-		<img id="cloud7" src="./source/clouds3.png" alt="" style="top: 1050px;">
-		<img id="cloud8" src="./source/clouds.png" alt="" style="top: 1800px;">
-		<img id="cloud9" src="./source/clouds2.png" alt="" style="top: 2500px;">
-	</section>
-
-	<figure id="mrtruck" class="truckleft" style=""><img src="./source/truck.png" alt=""></figure>
-
-	<!-- Highway -->
-	<section id="highway">
-
-		<article id="description2" style="display: none;">
-			<h3>EMPLOYMENT HISTORY</h3>
-			<p>Good skills of hand-drawing, photoshop painting, oil paiting, photography...
-			</br> Good at using design tools such as Photoshop , Illustrator
-			mockup and prototype Balsamiq,Axure , Sketch3,Marvel ,.....
-			in addition I am 
-			in IT with over 2 years experience about front-end with Html5/Css3 Javascript & Actionscrip
-			</br><em> technology savvy</em>
-			</p>
-		</article>
-		<div id="targetDescription2">
-
+		 </div>
+		 <div class="clearfix"> </div>
 		</div>
+	</div>
+  <!-- end about -->
 
-
-		<article id="texttrucks0" style="display: none;">
-			<h3>2012 start with Vinasave company (jp)</h3>
-			<p>
-			 work in Android and web development and as needed web design support.
-			</p>
-		</article>
-
-
-		<article id="texttrucks" style="display: none;">
-			<h3>2013 at FPT company</h3>
-			<p>
-					Deployed app IPTV ,VOD for smart TV flatform Html5/Css3, Javascript ,Actionscrip
-					design UX/UI
-			</p>
-		</article>
-		<article id="texttrucks2" style="display: none;">
-			<h3>FreeLance job </h3>
-			<p>
-				UX/UI designer app, web, game, oil painting artist , photograph...
-			</p>
-		</article>
-
-		<img id="city" src="./source/city.png" alt="">
-		<div id="hill"></div>
-		<img id="hill2" src="./source/hill2.png" alt="">
-		<img id="hill3" src="./source/hill3.png" alt="">
-		<img id="tunneltop" src="./source/tunneltop.png" alt="">
-		<img id="tunnel" src="./source/tunnel.png" alt="">
-		<div id="tunnel2"></div>
-		<div id="bridge"></div>
-
-
-		<figure class="truckright" id="targettruck0"><img src="./source/truck.png" alt=""></figure>
-		<figure class="truckright"><img src="./source/truck.png" alt=""></figure>
-		<figure class="truckright" id="targettruck"><img src="./source/truck.png" alt=""></figure>
-		<figure class="truckright"><img src="./source/truck.png" alt=""></figure>
-		<figure class="truckright" id="targettruck2"><img src="./source/truck.png" alt=""></figure>
-		<figure class="truckright"><img src="./source/truck.png" alt=""></figure>
-
-
-		<div id="house" style="top: 4500px;"><img src="./source/44.png" alt=""></div>
-		<div id="house2" style="top: 7000px;"><img src="./source/22.png" alt=""></div>
-		<div id="house3" style="top: 8600px;"><img src="./source/house.png" alt=""></div>
-
-		<div id="roadstart"><img src="./source/roadstart.png" alt=""></div>
-		<div id="road" class="hidedrop"></div>
-		<div id="dirtroad"></div>
-	</section>
-
-	<!-- Fracking Site -->
-	<section id="fracksite">
-		<div id="site" class="hidedrop2"><img src="./source/site.png" alt=""></div>
-		<div id="sitecontain"></div>
-
-		<article id="chemicals" style="display: none;">
-			<h3 class="white">2015 - now on </br> FPT company</h3>
-			<p> UX/UI designer on Fshare.vn with more than <em>4mil user</em> </br> skill : Balsamiq, Sketch ,Photoshop ,Illustrator, Marvel...
-				design mobile app, web, new features ,event ....
-			</p>
-		</article>
-		<div id="targetchemical"></div>
-
-	</section>
-
-	<!-- Rig -->
-	<section id="ground">
-		<article id="chemicals2" style="display: none;">
-			<h3>UX/UI design with technology savvy</h3>
-			
-		</article>
-
-		<div id="chemicals2wrapper" style="display: none;">
-			<hgroup id="toxinlist1">
-				<h4 class="redleft">html5</h4>
-				<h4 class="redleft">css3</h4>
-				<h4 class="redleft">javascrip</h4>
-				<h4 class="redleft">knowledge about programming language</h4>
-			</hgroup>
-			<hgroup id="toxinlist2">
-				<h4 class="redright">photoshop</h4>
-				<h4 class="redright">illustrator</h4>
-				<h4 class="redright">sketch3,axure,...</h4>
-				<h4 class="redright">marvel,uxpin...</h4>
-			</hgroup>
-		</div>
-
-		<div id="arrow"><img src="./source/dirtarrow.png" alt=""></div>
-		<figure id="rig"><img src="./source/rig.png" alt=""></figure>
-			<img id="clouda" src="./source/clouds3.png" alt="" style="top: 3400px;">
-			<img id="cloudb" src="./source/clouds.png" alt="" style="top: 9400px;">
-			<img id="cloudc" src="./source/clouds2.png" alt="" style="top: 2500px;">
-			<img id="cloudc2" src="./source/clouds.png" alt="" style="top: 10500px;">
-		<div id="chemicaltrigger"></div>
-
-	</section>
-
-	<!-- Ground -->
-	<section id="ground2">
-		<article id="chemicals3" style="display: none;">
-			<h3>túm lại</h3>
-			<p>là có tư duy code có kinhg nghiệm về lập trình đọc hiểu và nắm rỏ tech tiếp nhận requirment nhanh chóng</br> có khả năng phân tích ux ui người dùng  </p>
-		</article>
-
-		<figure id="pipe"></figure>
-
-		<div id="cracks3" style="display: none;"><img src="./source/cracks.png" alt=""></div>
-		<div id="trigger3"></div>
-
-
-	</section>
-
-
-
-	<!-- Footer -->
-	<footer>
-		<article id="end">
-			<p>	Cooperative and able to perform within a team-oriented atmosphere
-				I can contribute to the development of projects
-		</p></article>
-		<article id="footer">
-		
-			<div id="contact">
-				<h3 class="big">Nice to meet you </h3>
-				<p>	I would like very much to put my experience and skills to work for your company </p>
-		<p>Contact me via skype</p>
-		
-	
-				<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-				<div id="SkypeButton_Call_phuchung108_1" >
-				 <script type="text/javascript">
-				 Skype.ui({
-				 "name": "chat",
-				 "element": "SkypeButton_Call_phuchung108_1",
-				 "participants": ["phuchung108"],
-				 "imageSize": 32
-				 });
-				 </script>
+	<!-- experience -->
+	<div class="section" id="section2">
+		<div class="experience">
+		<div class=" experience-main ">
+		<div class="container ">
+				<h3 class="tittle four">Education & Experience</h3>
+				<div class="experience-main">
+					<span class="devide-line"></span>
+					<div class="experience-left">
+						<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+						<h4>MASTER OF TECHNOLOGY IN INFOMATION</h4>
+						<h5>DA NANG UNIVERSITY [ 2007 - 2012 ]</h5>
+						<p>Graduated from Da Nang University Of Technology in Information Technology (2012)</p>
+						<p> Web design and CCNA course in Truong Tan Group Training Center </p>
+					</div>
+					<div class="experience-left-snd">
+						<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+					</div>
+					<div class="experience-right-snd">
+						<h4>DEVELOP CORPORATION</h4>
+						<h5>FRONTEND DEVELOPER [ 2012 - 2014 ]</h5>
+						<p>Deployed app IPTV ,VOD for smart TV flatform Html5/Css3, Javascript ,Actionscrip </br> FPT playbox, FPT television, FPTplay.. in FPT company
+						</br>Freelancer UX/UI designer app, web, game, oil painting artist , photograph...</p>
+					</div>
+					<div class="experience-left-trd">
+						<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+						<h4>UX/UI PRODUCT </h4>
+						<h5>UX/UI DEVELOPER [ now ]</h5>
+						<p>UX/UI designer on FPT company about Fshare.vn ,Fsend.vn </br> Fsync and Fstorage coming soon</p>
+					</div>
+					<div class="clearfix"> </div>
 				</div>
-							<p>or</p>	
-				<h3 ><a href="mailto:uxphuchung@gmail.com"><img src="./source/email.png" alt="email me" style="width:160px;height:160px;"></a>  </h3>
-				<p>(uxphuchung@gmail.com)</p>
-				<p> I'd appreciate your giving me an interview</p>
+				</div>
+		</div>
+</div>
+	</div>
+	<!-- end experience -->
 
-		</article>
+	<!-- skill -->
+<div class="section" id="section3">
+		<h3 class="tittle skill">My Skills</h3>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Photoshop/Illustrator</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>Sketch app</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Html 5 / CSS 3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Javascript</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Marvel,Zeplin,Flinto...</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Hand draw</p>
+					</div>
+					<div class="clearfix"> </div>
+					<script type="text/javascript" src="js/circles.js"></script>
+										<script>
+								 var colors = [
+										 ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A']
+									 ];
+									var percen = [70,80,70,70,70,90];
+								 for (var i = 1; i <= 6; i++) {
+									 var child = document.getElementById('circles-' + i),
+										 percentage = percen[i-1];
 
-	</footer>
+									 Circles.create({
+										 id:         child.id,
+										 percentage: percentage,
+										 radius:     80,
+										 width:      10,
+										 number:   	percentage / 1,
+										 text:       '%',
+										 colors:     colors[i - 1]
+									 });
+								 }
+				 </script>
+		</div>
+</div>
+	<!-- end skill  -->
 
+		<!-- portfolio  -->
+	<div class="section" id="section4">
+
+
+		<!--light-box-files -->
+		<!-- Javascript calls -->
+		<script type="text/javascript" charset="utf-8">
+				$(function() {
+					$('#port a').Chocolat({overlayColor:'#000',leftImg:'images/leftw.gif',rightImg:'images/rightw.gif',closeImg:'images/closew.gif'});
+				});
+		</script>
+		<div class="container">
+			<h3 class="tittle port">Portfolio</h3>
+		   <div class="gallery-bottom">
+					<div class="col-md-4 bottom-gallery">
+						<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<img class="img-responsive" src="images/g1.jpg" />
+						<div class="b-wrapper">
+						  <h3 class="b-animate b-from-left    b-delay03 "> </h3>
+						</div>
+	                    </a>
+					</div>
+					<div class="col-md-4 bottom-gallery">
+						<a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<img class="img-responsive" src="images/g2.jpg" />
+						<div class="b-wrapper">
+						  <h3 class="b-animate b-from-left    b-delay03 "> </h3>
+						</div>
+	                      </a>
+					</div>
+					<div class="col-md-4 bottom-gallery">
+						<a href="images/g3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<img class="img-responsive" src="images/g3.jpg" />
+						<div class="b-wrapper">
+						  <h3 class="b-animate b-from-left    b-delay03 "> </h3>
+						</div>
+	                      </a>
+					</div>
+					<div class="col-md-4 bottom-gallery">
+						<a href="images/g4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<img class="img-responsive" src="images/g4.jpg" />
+						<div class="b-wrapper">
+						  <h3 class="b-animate b-from-left    b-delay03 "> </h3>
+						</div>
+	                      </a>
+					</div>
+					<div class="col-md-4 bottom-gallery">
+						<a href="images/g5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<img class="img-responsive" src="images/g5.jpg" />
+						<div class="b-wrapper">
+						  <h3 class="b-animate b-from-left    b-delay03 "> </h3>
+						</div>
+	                      </a>
+					</div>
+					<div class="col-md-4 bottom-gallery">
+						<a href="images/g6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+						<img class="img-responsive" src="images/g6.jpg" />
+						<div class="b-wrapper">
+						  <h3 class="b-animate b-from-left    b-delay03 "> </h3>
+						</div>
+	                      </a>
+					</div>
+					<div class="clearfix"> </div>
+			</div>
+
+		</div>
+	</div>
+	<div class="section" id="section5">
+		<div class="intro">
+			<h1 >Thanks you</h1>
+
+			<h3>I'd appreciate your giving me an interview!</h3>
+
+			<p> Via email : <a href="mailto:uxphuchung@gmail.com">uxphuchung@gmail.com</a></p>
+			<div class="viaskype">
+
+
+
+				<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+						<div id="SkypeButton_Call_phuchung108_1">
+								<p> Via skype : phuchung108 </p>
+						 <script type="text/javascript">
+						 Skype.ui({
+						 "name": "chat",
+						 "element": "SkypeButton_Call_phuchung108_1",
+						 "participants": ["phuchung108"],
+						 "imageSize": 24
+						 });
+						 </script>
+						</div>
+
+					</div>
+	<img src="images/thank.png" alt="thanks" height="300px" />
+		</div>
+	</div>
 
 </div>
-</div></div></body></html>
+
+
+</body>
+</html>
