@@ -40,6 +40,17 @@ ul{
 label{
 	margin:0;
 }
+/*menu*/
+#infoMenu {
+    height: 20px;
+    position: fixed;
+    z-index: 70;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 1em;
+    padding: 8px ;
+}
 /**/
 #section0,#section5{
 		background-image: url(../images/bg.jpeg) ;
