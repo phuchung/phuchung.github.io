@@ -51,6 +51,16 @@ label{
     font-size: 1em;
     padding: 8px ;
 }
+.copywrite{
+	height: 20px;
+	position: fixed;
+	z-index: 70;
+	bottom: 10px;
+	width: 100%;
+	text-align: right;
+	font-size: 1em;
+	padding: 8px ;
+}
 /**/
 #section0,#section5{
 		background-image: url(../images/bg.jpeg) ;
@@ -713,8 +723,14 @@ h3.tittle.contact {
 	-o-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	visibility: hidden;
-	font-size:1.1em;
-	font-weight:700;
+	font-size:1.5em;
+	/*font-weight:700;*/
+	padding-top:50px;
+	line-height:30px;
+	/*color:black;*/
+}
+.b-animate p {
+	font-size:0.7em;
 }
 /* lt-ie9 */
 .b-animate-go:hover .b-animate{
@@ -726,7 +742,7 @@ h3.tittle.contact {
    background: rgba(79, 185, 208, 0.65);
   background-size: 100% 100%;
   top: 0px;
-  margin: 0;
+  margin: 0px;
   min-height: 282px;
 }
 .bottom-gallery:hover .b-from-left{
