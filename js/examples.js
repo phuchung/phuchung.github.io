@@ -39,11 +39,11 @@ $(document).ready(function(){
 	  rotateZ: 180
 	}, {
 	  loop: true,
-	  duration: 2000
+	  duration:1000
 	});
 
 
 
 });
 
-	
+// wireframe

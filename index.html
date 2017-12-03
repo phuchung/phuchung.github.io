@@ -3,23 +3,23 @@
 
 <head>
 
-	<title>profile - PhucHung</title>
+	<title>ux designer</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Phuc Hung" />
 	<meta name="description" content="fullPage decription profile" />
-	<meta name="keywords"  content="cv,profile,portfolio,personale" />
+	<meta name="keywords" content="cv,profile,portfolio,personale" />
 	<meta name="Resource-type" content="Document" />
 
 
 
-	
+
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/examples.css" />
-	<link rel='stylesheet' type='text/css' href="css/style.css"  />
-	<link rel='stylesheet' type='text/css' href="css/bootstrap.css"/>
+	<link rel='stylesheet' type='text/css' href="css/style.css" />
+	<link rel='stylesheet' type='text/css' href="css/bootstrap.css" />
 
 	<!-- portfolio view image -->
-	<link rel="stylesheet"  type="text/css" media="screen" charset="utf-8" href="css/chocolat.css">
+	<link rel="stylesheet" type="text/css" media="screen" charset="utf-8" href="css/chocolat.css">
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
@@ -27,336 +27,558 @@
 	<![endif]-->
 	<!-- <script src="/modernizr.js" type="text/javascript"></script>js -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" type="text/javascript"></script>
-
-	<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script  src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.3.1/velocity.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.3.1/velocity.min.js"></script>
 	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/examples.js"></script>
-	<!-- portfolio view image -->
-	<script src="js/jquery.chocolat.js"></script>
+
 
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#A7FFEB', '#37474F', '#1DE9B6', '#37474F', '#E1F5FE','whitesmoke'],
-				anchors: ['home', 'about', 'experience', 'skill', 'port','contact'],
+				sectionsColor: ['#EDEFF4', '#520000', '#6E000C', '#8C1F22', '#6E000C', '#520000', '#EDEFF4'],
+				anchors: ['home', 'about', 'research', 'wireframe', 'progress', 'skill', 'contact'],
 				menu: '#menu',
 				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
-
 			});
-
 		});
 	</script>
 </head>
+
 <body>
-<div class="menu-section">
-  <div class="menu-toggle">
-    <div class="one"></div>
-    <div class="two"></div>
-    <div class="three"></div>
-  </div>
-  <nav class="main-menu">
-		<ul role="navigation" class="hidden">
-			<li data-menuanchor="home"><a href="#home">Home</a></li>
-			<li data-menuanchor="about"><a href="#about">About</a></li>
-			<li data-menuanchor="experience"><a href="#experience">Experience</a></li>
-			<li data-menuanchor="skill"><a href="#skill">Skill</a></li>
-			<li data-menuanchor="port"><a href="#port">Portfolio</a></li>
-			<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
-		</ul>
-	</nav>
-</div>
-
-
-
-<div id="fullpage">
-	<!-- home -->
-	<div class="section home" id="section0">
-			<h1>NGUYEN PHUC HUNG</h1>
-		<p>warning .... in progress become superman </p>
-		 <p>UX/UI Designer</p>
-		<p> Still coding still learning...</p>
-		 <!-- ghost 	 -->
-		 	<div class="monster"></div>
-	<!-- scroll  -->
-			<div class="mouse scroll-down"></div>
-			<p>Scroll</p>
-
-		 <!-- <div class="scroll-down">
-			<h4>SCROLL DOWN</h4>
-		 <a class="downarrow scroll" href="#about"><span></span></a>
-		 </div> -->
-	</div>
-	<!-- end home -->
-
-	<!-- about -->
-	<div class="section " id="section1">
-		<div class="container bubbles">
-		<h3 class="tittle about">About Me</h3>
-			 <div class="col-md-5 ab-grid pic">
-		 <img src="images/ab.jpg" alt=" " title="avata">
-		 </div>
-		 <div class="col-md-7 ab-grid text">
-			 <h4>I am PhucHung, I live in Da Nang . I am Front end Developer, UI/UX Developer</h4>
-		<p>I graduated at Da Nang University Of Technology in Information Technology and finished a course about Web design and CCNA course in Truong Tan Group Training Center.</br>
-			 In addition, I have  experience of being developer front-end and freelancer design UX/UI , photography, painting</p>
-
-		 </div>
-		 <div class="clearfix"> </div>
+	<div class="copywrite">copywrite @ 2016 phuchung</div>
+	<!-- <div class="menu-section">
+		<div class="menu-toggle">
+			<div class="one"></div>
+			<div class="two"></div>
+			<div class="three"></div>
 		</div>
-	</div>
-	
-  <!-- end about -->
+		<nav class="main-menu">
+			<ul role="navigation" class="hidden">
+				<li data-menuanchor="home"><a href="#home">Home</a></li>
+				<li data-menuanchor="about"><a href="#about">About</a></li>
+				<li data-menuanchor="research"><a href="#research">research</a></li>
+				<li data-menuanchor="wireframe"><a href="#wireframe">wireframe</a></li>
+				<li data-menuanchor="progress"><a href="#progress">progress</a></li>
+				<li data-menuanchor="contact"><a href="#contact">contact</a></li>
+			</ul>
+		</nav>
+	</div> -->
 
-				<!-- experience -->
-			<div class="section" id="section2">
-				<div class="wrapper">
-	    <ul class="bg-bubbles">
-	      <li></li>
-	      <li></li>
-	      <li></li>
-	      <li></li>
-	      <li></li>
-	      <li></li>
-	      <li></li>
-	      <li></li>
-	      <li></li>
-	      <li></li>
-	    </ul>
-	</div>
-					
-		<div class="experience">
-		<div class=" experience-main ">
+	<div id="fullpage">
+		<!-- home -->
+		<div class="section " id="section0">
+			<svg viewBox="0 0 200 200" width="200" height="200">
+	 			<g>
+						 <path d="M69,137.5 C31.229,137.5 0.5,106.771 0.5,69 C0.5,31.229 31.229,0.5 69,0.5 C106.771,0.5 137.5,31.229 137.5,69 C137.5,106.771 106.771,137.5 69,137.5" id="Fill-1" fill="#000000"></path>
+						 <path d="M69,0 C30.893,0 0,30.893 0,69 C0,107.107 30.893,138 69,138 C107.107,138 138,107.107 138,69 C138,30.893 107.107,0 69,0 M69,1 C106.495,1 137,31.505 137,69 C137,106.495 106.495,137 69,137 C31.505,137 1,106.495 1,69 C1,31.505 31.505,1 69,1" id="Fill-3" fill="#000000"></path>
+						 <path d="M105.0894,104.1641 C105.0894,105.9791 105.7184,107.2241 106.9804,107.9051 C108.2394,108.5841 110.7634,109.2891 114.5454,110.0131 C115.5144,110.1951 116.0004,110.8291 116.0004,111.9171 C116.0004,112.6441 115.9024,113.4601 115.7094,114.3661 C113.2834,114.1831 110.4264,114.0261 107.1394,113.8901 C103.8524,113.7531 100.9134,113.6851 98.3244,113.6851 C95.6374,113.6851 92.7714,113.7531 89.7244,113.8901 C86.6784,114.0261 83.7034,114.1831 80.7934,114.3661 C80.5984,113.4601 80.5024,112.6441 80.5024,111.9171 C80.5024,110.8291 80.9864,110.1951 81.9574,110.0131 C85.5444,109.3801 88.0174,108.6991 89.3774,107.9731 C90.7344,107.2471 91.4134,105.9791 91.4134,104.1641 L91.4134,71.2461 L45.7324,71.2461 L45.7324,104.1641 C45.7324,105.9791 46.3614,107.2241 47.6234,107.9051 C48.8824,108.5841 51.4054,109.2891 55.1884,110.0131 C56.2544,110.1951 56.7884,110.8291 56.7884,111.9171 C56.7884,112.6441 56.6914,113.4601 56.4974,114.3661 C53.9744,114.1831 51.0644,114.0261 47.7694,113.8901 C44.4704,113.7531 41.5134,113.6851 38.8944,113.6851 C36.1784,113.6851 33.3164,113.7531 30.3104,113.8901 C27.3034,114.0261 24.2964,114.1831 21.2914,114.3661 C21.0954,113.4601 21.0004,112.6441 21.0004,111.9171 C21.0004,110.8291 21.4844,110.1951 22.4544,110.0131 C26.1394,109.3801 28.6604,108.6991 30.0194,107.9731 C31.3774,107.2471 32.0564,105.9791 32.0564,104.1641 L32.0564,35.0631 C32.0564,34.1581 31.9344,33.4101 31.6934,32.8191 C31.4494,32.2301 30.9884,31.7091 30.3104,31.2541 C29.6314,30.8021 28.6854,30.4171 27.4744,30.0991 C26.2604,29.7821 24.6844,29.4411 22.7454,29.0791 C21.7754,28.9891 21.2914,28.2621 21.2914,26.9021 C21.2914,26.2681 21.3864,25.4971 21.5824,24.5891 C24.0054,24.7721 26.8184,24.9301 30.0194,25.0651 C33.2204,25.2011 36.1304,25.2691 38.7494,25.2691 C41.4634,25.2691 44.3254,25.2011 47.3324,25.0651 C50.3374,24.9301 53.2974,24.7721 56.2064,24.5891 C56.4004,25.4971 56.4974,26.2681 56.4974,26.9021 C56.4974,28.1731 56.0114,28.8971 55.0434,29.0791 C51.2604,29.6221 48.7624,30.3021 47.5504,31.1191 C46.3374,31.9351 45.7324,33.2501 45.7324,35.0631 L45.7324,65.5331 L91.4134,65.5331 L91.4134,35.0631 C91.4134,33.5221 90.8314,32.2741 89.6684,31.3221 C88.5044,30.3701 86.0304,29.6221 82.2484,29.0791 C81.1804,28.9891 80.6474,28.2621 80.6474,26.9021 C80.6474,26.2681 80.7434,25.4971 80.9384,24.5891 C83.3624,24.7721 86.1944,24.9301 89.4344,25.0651 C92.6724,25.2011 95.5874,25.2691 98.1784,25.2691 C100.8654,25.2691 103.6814,25.2011 106.6304,25.0651 C109.5784,24.9301 112.5564,24.7721 115.5634,24.5891 C115.7564,25.4971 115.8544,26.2681 115.8544,26.9021 C115.8544,28.1731 115.3684,28.8971 114.4004,29.0791 C110.6174,29.6221 108.1194,30.3021 106.9074,31.1191 C105.6934,31.9351 105.0894,33.2501 105.0894,35.0631 L105.0894,104.1641 Z" id="Fill-5" fill="#F2F2F2"></path>
+				 </g>
+				 <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+					 <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#ffffff">
+						 <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="1s" repeatCount="indefinite" />
+					 </path>
+				 </g>
+ 		 </svg>
 
-		<div class="container ">
-			<h3 class="tittle four">Education & Experience</h3>
-			<div class="experience-main">
-				<span class="devide-line"></span>
-	
-		<div class="experience-left">
-						<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-						<h4>MASTER OF TECHNOLOGY IN INFOMATION</h4>
-						<h5>DA NANG UNIVERSITY [ 2007 - 2012 ]</h5>
-						<p>Graduated from Da Nang University Of Technology in Information Technology (2012)</p>
-						<p> Web design and CCNA course in Truong Tan Group Training Center </p>
+		</div>
+		<!-- end home -->
+
+		<!-- about -->
+		<div class="section " id="section1">
+			<div class="container ">
+				<h3 class="tittle about"></h3>
+				<div class="col-md-5 ab-grid pic">
+					<div class="stage">
+						<div class="beard"></div>
+						<div class="face"></div>
+						<div class="ear left"></div>
+						<div class="ear right"></div>
+						<div class="eye left"></div>
+						<div class="eye right"></div>
+						<div class="eye-inside left"></div>
+						<div class="eye-inside right"></div>
+						<div class="eyebrow left"></div>
+						<div class="eyebrow right"></div>
+						<div class="mouth"></div>
+						<div class="crown-bottom"></div>
+						<div class="crown-front side-left"></div>
+						<div class="crown-front middle-left"></div>
+						<div class="crown-front middle-right"></div>
+						<div class="crown-front side-right"></div>
+						<div class="hair"></div>
+						<div class="hair-left"></div>
+						<div class="hair-right"></div>
+						<div class="crown-back first"></div>
+						<div class="crown-back second"></div>
+						<div class="crown-back third"></div>
+						<div class="nose"></div>
 					</div>
-					<div class="experience-left-snd">
-						<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
-					</div>
-					<div class="experience-right-snd">
-						<h4>DEVELOP CORPORATION</h4>
-						<h5>FRONTEND DEVELOPER [ 2012 - 2014 ]</h5>
-						<p>Deployed app IPTV ,VOD for smart TV flatform Html5/Css3, Javascript ,Actionscrip </br> FPT playbox, FPT television, FPTplay.. in FPT company
-						</br>Freelancer UX/UI designer app, web, game, oil painting artist , photograph...</p>
-					</div>
-					<div class="experience-left-trd">
-						<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
-						<h4>UX/UI PRODUCT </h4>
-						<h5>UX/UI DEVELOPER [ now ]</h5>
-						<p>UX/UI designer on FPT company about Fshare.vn ,Fsend.vn </br> Fsync and Fstorage coming soon</p>
-					</div>
-					<div class="clearfix"> </div>
 				</div>
+				<div class="col-md-7 ab-grid text">
+					<h1 class="titletext">I am PhucHung, UX/UI Designer</h1>
+					<h2 class="subtext">I am so serious to make a better product for you </br> </h2>
+						<p class="caption">Keep scroll down to explore my work</p>
 				</div>
+				<div class="clearfix"> </div>
+			</div>
 		</div>
-</div>
-	</div>
 
-	<!-- end experience -->
+		<!-- end about -->
 
-	<!-- skill -->
-<div class="section" id="section3">
-		<h3 class="tittle skill">My Skills</h3>
-		<div class="gear">
-			<svg class="machine"xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 645 526">
-		      <defs/>
-		      <g>
-		        <path  x="-173,694" y="-173,694" class="large-shadow" d="M645 194v-21l-29-4c-1-10-3-19-6-28l25-14 -8-19 -28 7c-5-8-10-16-16-24L602 68l-15-15 -23 17c-7-6-15-11-24-16l7-28 -19-8 -14 25c-9-3-18-5-28-6L482 10h-21l-4 29c-10 1-19 3-28 6l-14-25 -19 8 7 28c-8 5-16 10-24 16l-23-17L341 68l17 23c-6 7-11 15-16 24l-28-7 -8 19 25 14c-3 9-5 18-6 28l-29 4v21l29 4c1 10 3 19 6 28l-25 14 8 19 28-7c5 8 10 16 16 24l-17 23 15 15 23-17c7 6 15 11 24 16l-7 28 19 8 14-25c9 3 18 5 28 6l4 29h21l4-29c10-1 19-3 28-6l14 25 19-8 -7-28c8-5 16-10 24-16l23 17 15-15 -17-23c6-7 11-15 16-24l28 7 8-19 -25-14c3-9 5-18 6-28L645 194zM471 294c-61 0-110-49-110-110S411 74 471 74s110 49 110 110S532 294 471 294z"/>
-		      </g>
-		      <g>
-		        <path x="-136,996" y="-136,996" class="medium-shadow" d="M402 400v-21l-28-4c-1-10-4-19-7-28l23-17 -11-18L352 323c-6-8-13-14-20-20l11-26 -18-11 -17 23c-9-4-18-6-28-7l-4-28h-21l-4 28c-10 1-19 4-28 7l-17-23 -18 11 11 26c-8 6-14 13-20 20l-26-11 -11 18 23 17c-4 9-6 18-7 28l-28 4v21l28 4c1 10 4 19 7 28l-23 17 11 18 26-11c6 8 13 14 20 20l-11 26 18 11 17-23c9 4 18 6 28 7l4 28h21l4-28c10-1 19-4 28-7l17 23 18-11 -11-26c8-6 14-13 20-20l26 11 11-18 -23-17c4-9 6-18 7-28L402 400zM265 463c-41 0-74-33-74-74 0-41 33-74 74-74 41 0 74 33 74 74C338 430 305 463 265 463z"/>
-		      </g>
-		      <g >
-		        <path x="-100,136" y="-100,136" class="small-shadow" d="M210 246v-21l-29-4c-2-10-6-18-11-26l18-23 -15-15 -23 18c-8-5-17-9-26-11l-4-29H100l-4 29c-10 2-18 6-26 11l-23-18 -15 15 18 23c-5 8-9 17-11 26L10 225v21l29 4c2 10 6 18 11 26l-18 23 15 15 23-18c8 5 17 9 26 11l4 29h21l4-29c10-2 18-6 26-11l23 18 15-15 -18-23c5-8 9-17 11-26L210 246zM110 272c-20 0-37-17-37-37s17-37 37-37c20 0 37 17 37 37S131 272 110 272z"/>
-		      </g>
-		      <g>
-		        <path x="-100,136" y="-100,136" class="small" d="M200 236v-21l-29-4c-2-10-6-18-11-26l18-23 -15-15 -23 18c-8-5-17-9-26-11l-4-29H90l-4 29c-10 2-18 6-26 11l-23-18 -15 15 18 23c-5 8-9 17-11 26L0 215v21l29 4c2 10 6 18 11 26l-18 23 15 15 23-18c8 5 17 9 26 11l4 29h21l4-29c10-2 18-6 26-11l23 18 15-15 -18-23c5-8 9-17 11-26L200 236zM100 262c-20 0-37-17-37-37s17-37 37-37c20 0 37 17 37 37S121 262 100 262z"/>
-		      </g>
-		      <g>
-		        <path x="-173,694" y="-173,694" class="large" d="M635 184v-21l-29-4c-1-10-3-19-6-28l25-14 -8-19 -28 7c-5-8-10-16-16-24L592 58l-15-15 -23 17c-7-6-15-11-24-16l7-28 -19-8 -14 25c-9-3-18-5-28-6L472 0h-21l-4 29c-10 1-19 3-28 6L405 9l-19 8 7 28c-8 5-16 10-24 16l-23-17L331 58l17 23c-6 7-11 15-16 24l-28-7 -8 19 25 14c-3 9-5 18-6 28l-29 4v21l29 4c1 10 3 19 6 28l-25 14 8 19 28-7c5 8 10 16 16 24l-17 23 15 15 23-17c7 6 15 11 24 16l-7 28 19 8 14-25c9 3 18 5 28 6l4 29h21l4-29c10-1 19-3 28-6l14 25 19-8 -7-28c8-5 16-10 24-16l23 17 15-15 -17-23c6-7 11-15 16-24l28 7 8-19 -25-14c3-9 5-18 6-28L635 184zM461 284c-61 0-110-49-110-110S401 64 461 64s110 49 110 110S522 284 461 284z"/>
-		      </g>
-		      <g>
-		        <path x="-136,996" y="-136,996" class="medium" d="M392 390v-21l-28-4c-1-10-4-19-7-28l23-17 -11-18L342 313c-6-8-13-14-20-20l11-26 -18-11 -17 23c-9-4-18-6-28-7l-4-28h-21l-4 28c-10 1-19 4-28 7l-17-23 -18 11 11 26c-8 6-14 13-20 20l-26-11 -11 18 23 17c-4 9-6 18-7 28l-28 4v21l28 4c1 10 4 19 7 28l-23 17 11 18 26-11c6 8 13 14 20 20l-11 26 18 11 17-23c9 4 18 6 28 7l4 28h21l4-28c10-1 19-4 28-7l17 23 18-11 -11-26c8-6 14-13 20-20l26 11 11-18 -23-17c4-9 6-18 7-28L392 390zM255 453c-41 0-74-33-74-74 0-41 33-74 74-74 41 0 74 33 74 74C328 420 295 453 255 453z"/>
-		      </g>
-		    </svg>
-		</div>	
-		 <div class="skill-grids"> 
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-1"></div>
-						<p>Photoshop/Illustrator</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-2"></div>
-						<p>Sketch app</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-3"></div>
-						<p>Html 5 / CSS 3</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-4"></div>
-						<p>Javascript</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-5"></div>
-						<p>Marvel,Zeplin,Flinto...</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-6"></div>
-						<p>Hand draw</p>
-					</div>
-					<div class="clearfix"> </div>
-					<script type="text/javascript" src="js/circles.js"></script>
-										<script>
-								 var colors = [
-										 ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A'], ['#ffffff', '#8BC34A']
-									 ];
-									var percen = [70,90,70,60,80,90];
-								 for (var i = 1; i <= 6; i++) {
-									 var child = document.getElementById('circles-' + i),
-										 percentage = percen[i-1];
-
-									 Circles.create({
-										 id:         child.id,
-										 percentage: percentage,
-										 radius:     80,
-										 width:      10,
-										 number:   	percentage / 1,
-										 text:       '%',
-										 colors:     colors[i - 1]
-									 });
-								 }
-				 </script>
-
-		</div>
-</div>
-	<!-- end skill  -->
-
-		<!-- portfolio  -->
-	<div class="section" id="section4">
-		<!--portfolio-->
-		<script src="js/jquery.chocolat.js"></script>
-			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-			<!--light-box-files -->
-			<!-- <script type="text/javascript" charset="utf-8">
-			$(function() {
-				$('.gallery a').Chocolat();
-			});
-			</script> -->
-
-				<div>
-					<div class="container">
-						<h3 class="tittle port">Portfolio</h3>
-					   <div class="gallery-bottom">
-								<div class="col-md-4 bottom-gallery">
-									<a target="_blank" href="https://www.fshare.vn/" rel="title" class="b-link-stripe b-animate-go  thickbox">	<img class="img-responsive" src="images/g1.jpg" />
-										<div class="b-wrapper">
-										  <h3 class="b-animate b-from-left    b-delay03 "> UX/UI PRODUCT FSHARE.VN</h3>
-										</div>
-									</a>
-
-								</div>
-
-								<div class="col-md-4 bottom-gallery">
-
-									<!-- <a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"> -->
-								<a target="_blank" href="http://fsend.vn/" rel="title" class="b-link-stripe b-animate-go  thickbox">	<img class="img-responsive" src="images/g2.jpg" />
-									<div class="b-wrapper">
-									  <h3 class="b-animate b-from-left    b-delay03 ">UX/UI PRODUCT FSEND.VN </h3>
-									</div>
-								</a>
-				                      <!-- </a> -->
-								</div>
-								<div class="col-md-4 bottom-gallery">
-									<a target="_blank" href="https://marvelapp.com/h75598" rel="title" class="b-link-stripe b-animate-go  thickbox">	<img class="img-responsive" src="images/g3.jpg" />
-										<div class="b-wrapper">
-										  <h3 class="b-animate b-from-left    b-delay03 "> PROTOTYPE APP <p>Design website and mobile app</p></h3>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-4 bottom-gallery">
-									<a target="_blank" href="#port" rel="title" class="b-link-stripe b-animate-go  thickbox">	<img class="img-responsive" src="images/g4.jpg" />
-										<div class="b-wrapper">
-										  <h3 class="b-animate b-from-left    b-delay03 "> DESIGN WEBSITE <p> coffee shop website </br>coming soon</p</p></h3>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-4 bottom-gallery">
-									<a target="_blank" href="https://marvelapp.com/1e67fei" rel="title" class="b-link-stripe b-animate-go  thickbox">	<img class="img-responsive" src="images/g5.jpg" />
-										<div class="b-wrapper">
-										  <h3 class="b-animate b-from-left    b-delay03 "> PROTOTYPE APP <p>design mockup ,prototype app vetiver tracking system ></h3>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-4 bottom-gallery">
-									<a target="_blank" href="https://phuchungblog.files.wordpress.com/2016/07/10353170_887753747916168_16353558617106714_n.jpg?w=2000&h=&crop=1" rel="title" class="b-link-stripe b-animate-go  thickbox">	<img class="img-responsive" src="images/g6.jpg" />
-										<div class="b-wrapper">
-										  <h3 class="b-animate b-from-left    b-delay03 "> OIL PAINTING </br><p>hand draw painting</p></h3>
-										</div>
-									</a>
-								</div>
-								<div class="clearfix"> </div>
+		<!-- research -->
+		<div class="section" id="section2">
+			<h1 class="titletext ">Research</h1>
+			<p class="subtext">User-experience research methods are great at producing data and insights,</br> while ongoing activities help get the right things done.</p>
+			<div class="search">
+				<div class="search__glass">
+					<div class="search__glass__paper">
+						<div class="search__glass__paper__">
+							<div class="search__glass__paper__text">
+								User Experience refers to a person's emotions and attitudes about using a particular product, system or service. It includes the practical, experiential, affective, meaningful and valuable aspects of human–computer interaction and product ownership
+							</div>
 						</div>
-
 					</div>
 				</div>
-		<script src="js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-		<!--light-box-files -->
-		<!-- Javascript calls -->
-		<!-- <script type="text/javascript" charset="utf-8">
-				$(function() {
-					$('#section4 a').Chocolat({overlayColor:'#000',leftImg:'images/leftw.gif',rightImg:'images/rightw.gif',closeImg:'images/closew.gif'});
-				});
-		</script> -->
 
-<!--//portfolio-->
-	</div>
-
-	<!--  -->
-	<div class="section" id="section5">
-		<div class="intro">
-			<h1 >Thanks you</h1>
-
-			<h3>I'd appreciate your giving me an interview!</h3>
-
-			<p> Via email : <a href="mailto:uxphuchung@gmail.com">uxphuchung@gmail.com</a></p>
-			<div class="viaskype">
-
-
-
-				<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-						<div id="SkypeButton_Call_phuchung108_1">
-								<p> Via skype : phuchung108 </p>
-						 <script type="text/javascript">
-						 Skype.ui({
-						 "name": "chat",
-						 "element": "SkypeButton_Call_phuchung108_1",
-						 "participants": ["phuchung108"],
-						 "imageSize": 24
-						 });
-						 </script>
-						</div>
-
-					</div>
-	<img src="images/thank.png" alt="thanks" height="300px" />
-	<p>Phone : 0934 888 076</p>
+				<div class="search__handle"></div>
+			</div>
 
 		</div>
-	</div>
 
-</div>
+		<!-- end research -->
+		<!-- wireframe   -->
+		<div class="section" id="section3">
+			<h1 class="titletext ">WIREFRAME</h1>
+			<p class="subtext"> Wireframes and Prototype gives you a way to show off your idea</br> without investing the time or money to build a working product first.</p>
+			<div class="browser">
+				<div class="browser__toolbar">
+					<div class="browser__close"></div>
+					<div class="browser__minimise"></div>
+					<div class="browser__open"></div>
+				</div>
+				<svg class="browser__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="15" viewBox="0 0 45 15">
+		<rect x="0" y="0" width="45" height="15" rx="2" ry="2"/>
+</svg>
+				<svg class="browser__hero" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="50" viewBox="0 0 170 50">
+		<rect x="0" y="0" width="170" height="50" rx="2" ry="2"/>
+</svg>
+				<svg class="browser__2column" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="50" viewBox="0 0 170 50">
+		<rect x="0" y="0" width="80" height="50" rx="2" ry="2"/>
+		<rect x="90" y="0" width="50" height="12" rx="2" ry="2"/>
+		<rect x="90" y="16" width="80" height="4" rx="2" ry="2"/>
+		<rect x="90" y="23" width="80" height="4" rx="2" ry="2"/>
+		<rect x="90" y="30" width="80" height="4" rx="2" ry="2"/>
+		<rect x="90" y="42" width="40" height="8" rx="2" ry="2"/>
+</svg>
+				<svg class="browser__trio" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="70" viewBox="0 0 170 70">
+		<rect class="first" x="0" y="10" width="50" height="50" rx="2" ry="2"/>
+		<rect class="second" x="60" y="10" width="50" height="50" rx="2" ry="2"/>
+		<rect class="third" x="120" y="10" width="50" height="50" rx="2" ry="2"/>
+</svg>
 
-<div class="copywrite">copywrite @ 2016 phuchung</div></body>
+			</div>
+
+
+
+
+			<div class="clearfix"> </div>
+		</div>
+		<!-- end wireframe -->
+		<!-- process -->
+		<div class="section" id="section4">
+			<h1 class='titletext'> HOW WE WORK</h1>
+			<h2 class="subtext">Invisionapp help improving communication between content and design teams </h2>
+			<div class="block">
+				<div id="process">
+					<svg version="1.1" id="animazione" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 557" enable-background="new 0 0 1200 557" xml:space="preserve">
+																		<g id="percorso">
+																			<g>
+																				<path fill="none" stroke="#818181" stroke-width="2" stroke-miterlimit="10" d="M115,494c0,0-0.4-0.8-1.1-2.2"/>
+																				<path id="percorso-l" fill="none" stroke="#818181" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="4.996,4.996" d="M111.7,487.3
+																					C92.6,447.2-0.1,237.3,91,103c61-90,294.8-86.4,315.5,10c13,60.6-100.5,66.5-80.5,188.7s78,82.3,76,49.3s-62-82-90,1
+																					s82,126.4,118,135c75,18,908,84,648-273c-35.6-51.5-114.4-142.4-281-127.1"/>
+																				<path fill="none" stroke="#818181" stroke-width="2" stroke-miterlimit="10" d="M794.5,87.1c-0.8,0.1-1.7,0.2-2.5,0.3"/>
+																			</g>
+																		</g>
+																		<path id="omino" fill="#DA3D3E" d="M167.5,529.5h-43.1h-3.2v2.8v22.8h3.2v-22.8h6.9v4.9v9.9v2l0,0v4.4h14h1.7h14v-3.6l0,0v-17.6h6.9
+																			v22.8h3.2v-22.8v-2.8H167.5L167.5,529.5z M133.3,532.3c-0.2,0.2-0.4,0.5-0.6,0.7v-0.7H133.3z M132.7,536.9c0.4-2.1,1.6-3.7,3.2-4.7
+																			h5.8c1.7,1,3.1,2.7,3.3,4.9l0,0v6.6c-1.5-1.8-3.7-2.9-6-2.9c-2.6,0-4.8,1.2-6.2,3.2L132.7,536.9L132.7,536.9z M145.1,547.5v0.5
+																			h-12.2c0.4-3.2,2.9-5.6,6.1-5.6C142,542.5,144.5,544.5,145.1,547.5z M145.1,549.8v2h-12.2v-2.1L145.1,549.8L145.1,549.8z
+																			 M144.3,532.3h3.1c-0.6,0.6-1.1,1.3-1.5,2.2C145.4,533.6,144.9,532.9,144.3,532.3z M146.7,537.2c0.2-2.1,1.5-3.9,3.3-4.9h5.8
+																			c1.7,1,3.1,2.7,3.3,4.9v6.9c-1.5-2-3.7-3.2-6.2-3.2c-2.6,0-4.8,1.3-6.2,3.3V537.2L146.7,537.2z M146.8,548.1
+																			c0.4-3.2,2.9-5.6,6.1-5.6c3.2,0,5.8,2.4,6.1,5.6H146.8z M159.1,551.6h-12.2v-2h12.2V551.6z M159.1,533.1c-0.2-0.2-0.5-0.6-0.7-0.9
+																			h0.7V533.1z M146.2,504.1L146.2,504.1c8.2,0,14.9-6.7,14.9-15.1c0-3.5-1-5.5-1.8-6.6c0,0-0.1-0.1-0.2-0.4l-0.1-0.1
+																			c-1.1-1.1-4.7-3.5-12.7-3.5c0,0-0.1,0-0.4,0c-2.4,0-10.4,0.2-12.9,4c-0.7,1.1-1.7,3.1-1.7,6.6C131.2,497.4,138,504.1,146.2,504.1z
+																			 M133.9,483.2L133.9,483.2c2.2-3.4,10.3-3.5,12-3.5c0.2,0,0.4,0,0.4,0c8,0,11.1,2.6,12,3.3l0.1,0.1c0.1,0.1,0.2,0.2,0.2,0.2
+																			c0.6,0.7,1.6,2.4,1.6,5.9c0,7.7-6.2,14.1-13.8,14.1l0,0c-7.6,0-13.8-6.2-13.8-14.1C132.3,485.7,133.3,483.9,133.9,483.2z
+																			 M128.8,529.2l1.2-1.2c-4.4-3.8-6.1-8.7-5.1-14.3c0.5-2.7,1.3-4.8,2.1-6.1c0.1-0.1,0.1-0.2,0.2-0.5c1.2-2.4,3.2-4.5,5.5-6.2
+																			c3.3,3.8,8.2,6.1,13.6,6.1c5.3,0,10.2-2.3,13.3-5.9c2.2,1.7,3.9,3.7,5.1,6c0.1,0.1,0.1,0.4,0.2,0.5c0.6,1.3,1.6,3.6,2.1,6.1
+																			c1,5.6-0.9,10.5-5.1,14.3l1.2,1.2c8.4-7.3,5.9-16.6,3.9-21.3v-16.4c0-1.3-1.1-2.4-2.4-2.4h-0.5c-0.2-9.4-8.2-17-17.9-17
+																			c-9.7,0-17.6,7.6-17.9,17h-0.5c-1.3,0-2.4,1.1-2.4,2.4v15.3C123.3,510.9,119.6,521.3,128.8,529.2z M164.5,490.7
+																			c0.5,0,0.9,0.4,0.9,0.9V505c-1.2-2-2.8-3.7-4.8-5.1c2-2.6,3.2-5.8,3.4-9.1L164.5,490.7L164.5,490.7z M146.2,473.8
+																			c8.9,0,16.2,7.1,16.2,15.8c0,8.7-7.2,15.8-16.2,15.8s-16.2-7.1-16.2-15.8C130,480.9,137.2,473.8,146.2,473.8z M126.9,491.5
+																			c0-0.5,0.4-0.9,0.9-0.9h0.6c0.2,3.3,1.3,6.2,3.2,8.8c-1.8,1.3-3.3,2.9-4.7,4.7V491.5L126.9,491.5z M160.5,526.9v-19.5
+																			c0-0.7-0.5-1.3-1.2-1.3h-26.8c-0.6,0-1.2,0.6-1.2,1.3v19.3h-3.9v1.6c0,0.7,0.5,1.3,1.2,1.3h3.9h26.9h4c0.6,0,1.2-0.6,1.2-1.3v-1.6
+																			h-4.2v0.2H160.5z M145.9,519.8c-1.2,0-2.1-1-2.1-2.1c0-1.2,1-2.1,2.1-2.1c1.2,0,2.1,1,2.1,2.1C148,518.8,147.1,519.8,145.9,519.8z"
+																			/>
+																		<path id="space" fill="#37B34A" d="M795.2,82c-2.2-5.7-12.9-5.3-22.3-3.8c-6.1-6.9-15-11.3-24.9-11.3c-18.3,0-33.2,14.9-33.2,33.2
+																			c0,0.1,0,0.3,0,0.4c-8,5.1-16.1,12-13.9,17.7c1.4,3.6,6.1,4.8,11.8,4.8c3.3,0,7-0.4,10.4-1c6.1,6.9,15,11.3,24.9,11.3
+																			c18.3,0,33.2-14.9,33.2-33.2c0-0.1,0-0.2,0-0.4C789.2,94.6,797.4,87.7,795.2,82z M748,72.9c14.3,0,26.1,11.1,27.1,25.2
+																			c-2.7,1.6-5.5,3.1-8.6,4.6c-1.9-3-5.2-5-9-5c-5.8,0-10.6,4.7-10.6,10.6c0,0.9,0.1,1.7,0.3,2.6c-7.2,2.6-14.3,4.6-20.7,5.9
+																			c-3.6-4.6-5.7-10.4-5.7-16.6C720.9,85.1,733,72.9,748,72.9z M705.1,116.5c-0.5-1.3,2-5.3,10.2-10.9c0.8,4.4,2.4,8.6,4.7,12.2
+																			C710.1,119.2,705.6,117.9,705.1,116.5z M748,127.2c-6.8,0-13-2.5-17.8-6.7c6-1.4,12.5-3.3,19.1-5.7c1.9,2.4,4.9,3.9,8.2,3.9
+																			c5.8,0,10.6-4.7,10.6-10.6c0-0.4,0-0.8-0.1-1.2c2.4-1.2,4.7-2.4,6.9-3.6C773.3,116.8,761.8,127.2,748,127.2z M780.7,94.6
+																			c-0.7-4.5-2.4-8.6-4.7-12.3c9.9-1.4,14.5,0,15,1.3C791.5,84.9,789,88.9,780.7,94.6z"/>
+
+																		<path id="navicella" fill="#0071BB" d="M-0.012,18.551c0.092-0.058,0.173-0.127,0.252-0.197c23.414-0.963,38.012-15.05,39.887-16.96
+																			c0.778-0.796,0.778-2.067,0-2.863C38.249-3.382,23.611-17.506,0.139-18.434c-0.051-0.039-0.095-0.084-0.15-0.119
+																			c-0.591-0.373-14.666-9.103-35.092-7.315c-0.954,0.083-1.721,0.815-1.848,1.763c-0.013,0.091-0.02,0.184-0.02,0.274
+																			c0,0.845,0.525,1.615,1.333,1.915c3.935,1.46,10.179,4.361,13.35,7.033c-1.83,0.827-3.579,1.814-5.227,2.971
+																			c-0.402,0.286-0.69,0.707-0.808,1.187c-0.458,1.866-0.789,3.761-1,5.671c-3.812,0.632-7.466,1.642-10.333,3.228
+																			c-0.649,0.36-1.053,1.047-1.053,1.79c0,0.745,0.402,1.43,1.053,1.789c2.87,1.589,6.531,2.598,10.349,3.229
+																			c0.21,1.909,0.528,3.804,0.985,5.669c0.116,0.48,0.404,0.902,0.808,1.187c1.664,1.169,3.43,2.165,5.282,2.997
+																			c-3.152,2.681-9.448,5.61-13.407,7.08c-0.808,0.303-1.333,1.072-1.333,1.918c0,0.089,0.006,0.182,0.019,0.272
+																			c0.126,0.947,0.892,1.681,1.848,1.764C-14.677,27.656-0.601,18.924-0.012,18.551z M-25.611-21.872
+																			c6.996,0.492,12.81,2.161,16.894,3.721c-2.141,0.22-4.333,0.542-6.587,1.006c-0.945,0.195-1.87,0.435-2.781,0.704
+																			C-19.836-18.447-22.731-20.329-25.611-21.872z M35.693-0.035c-2.921,2.616-9.533,7.798-19.167,11.173
+																			c-0.456-1.312-0.81-2.596-1.083-3.853c3.564-0.545,6.312-3.605,6.312-7.321c0-3.732-2.772-6.8-6.36-7.325
+																			c0.34-1.606,0.729-2.917,1.058-3.871C26.126-7.859,32.764-2.659,35.693-0.035z M14.321,3.309c-1.843,0-3.343-1.501-3.343-3.345
+																			s1.5-3.344,3.343-3.344c1.844,0,3.346,1.5,3.346,3.344S16.163,3.309,14.321,3.309z M-33.182-0.037
+																			c8.523-2.446,20.499-1.906,24.242-1.659c0.183,0.495,0.344,1.099,0.344,1.659c0,0.527-0.171,1.147-0.359,1.659
+																			C-12.716,1.87-24.669,2.405-33.182-0.037z M-14.485,13.07c-3.652-0.751-7.029-2.145-10.044-4.144
+																			c-0.253-1.12-0.433-2.256-0.585-3.393c8.762,0.865,17.154,0.125,17.708,0.072c0.669-0.061,1.269-0.447,1.597-1.038
+																			c0.131-0.238,1.302-2.389,1.302-4.604c0-2.33-1.191-4.414-1.327-4.644c-0.333-0.566-0.917-0.938-1.573-0.997
+																			c-0.555-0.052-8.953-0.793-17.721,0.075c0.152-1.14,0.346-2.273,0.598-3.395c3.013-2,6.389-3.392,10.045-4.141
+																			c11.895-2.443,22.086-1.053,30.213,1.66c-0.346,0.997-0.749,2.365-1.101,4.041c-0.104-0.004-0.201-0.031-0.305-0.031
+																			c-4.1,0-7.433,3.334-7.433,7.433c0,4.1,3.333,7.435,7.433,7.435c0.119,0,0.229-0.03,0.348-0.035
+																			c0.285,1.311,0.655,2.653,1.132,4.021C7.663,14.114-2.555,15.52-14.485,13.07z M-18.034,16.383c0.895,0.263,1.802,0.499,2.729,0.689
+																			c2.31,0.474,4.552,0.799,6.743,1.017c-4.091,1.578-9.963,3.285-17.049,3.785C-22.701,20.315-19.778,18.41-18.034,16.383z">
+
+
+																		    <animateMotion dur="20s" restart="whenNotActive" rotate="auto" repeatCount="indefinite" keyTimes="0; 1" calcMode="spline" keySplines=".1 0 .9 1">
+																		        <mpath xlink:href="#percorso-l" />
+
+																		    </animateMotion>
+																		  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" />
+																		    <animate attributeType="CSS" attributeName="opacity" from="1" to="0" begin="19s" dur="1s" />
+
+																		</path>
+																		<g>
+																			<defs>
+																				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="851" y="-11.8" width="291" height="291">
+																					<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+																					<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+																				</filter>
+																			</defs>
+																			<mask maskUnits="userSpaceOnUse" x="851" y="-11.8" width="291" height="291" id="SVGID_1_">
+																				<g filter="url(#Adobe_OpacityMaskFilter)">
+
+																						<image overflow="visible" width="296" height="296" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+																		EAMCAwYAAAQ/AAAIwgAACqX/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+																		Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+																		JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIASgBKAMBIgACEQEDEQH/
+																		xACFAAEAAgMBAQAAAAAAAAAAAAAABQYBAwQCBwEBAAAAAAAAAAAAAAAAAAAAABAAAQUBAAICAgID
+																		AQAAAAAAAQACAwQFEUAhMRIgMBAVgDITFBEAAgEDAgcBAQAAAAAAAAAAAAEhETECQDIQIDBQQYEi
+																		YRISAQAAAAAAAAAAAAAAAAAAAID/2gAMAwEAAhEDEQAAAPn4AAAABtNSTkivbbZ2FN23XaUVe8FA
+																		0/QOcoWu6x5WknwmoAAAAAAAAAyY29s+RE3MShDyEt0EZvkfRw++wcmOwcGqUwQvJY9RUoq9cJ84
+																		i/o8IU1JRxgAAAAAA2GJrdZDRN9EkaOvbkxnIAAAAYyPOvdgjoyx8xSq59Ggz534scCagAAADJ6s
+																		Gm1HudSRjeyAAAAAAAAMZHPGzOkqFY+hwB878TsGYAAAkeO1nfZOeaPe9kAAAAAAAAAAYyOeKnOU
+																		pVQ+lVQp7bqABsJW5Q9sO+Q1bjIAAAAAAAAAAAHn1gjq5boU+cw1yqJrAko2yFkssVPHR6xkAAAA
+																		AAAAAAAAA8x0lzFQpX0WmFbB7uNUuxZJmOkz0AAAAAAAAAAAAABq2+SEp94qZQ24bbzS7yWOQ4u0
+																		yAAAAAAAAAAAAABjOCPq9rrJQG0er1Q70Wfs4u0yAAAAAAAAAAAAABjODirVjrJSXkarxQroXKRi
+																		JU9gAAAAAAAAAAAAAefXgj6tY6oVBpGu20+wH0CarNhOtjIAAAAAAAAAAAABjVt5CKp9kpZBvAd/
+																		BsPoFnoltLB7595kAAAAAAAAAAAAweYzthCGpc/VDwACXuXzq1F+ka3NnYxkAAAAAAAAAAAeM8hz
+																		1uQqhExOzWAAO/gyXyy/OLUXLohZM6GMgAAAAAAAADDnMRPuvmipdUOYAAAB6nq/7Pok986spcui
+																		CkjsePRkAAAAAAwZ8+eY9xniCPVYQhjyAAAAAHqYhcl8m/m08X7sp8oWL1FdR150+z285MsDLzg9
+																		NOk6tHFwEhGRsKSFd5OIz5AAAAAAABs1iVmaj7PoEh87kD6B00bsLl7qe0tGK15LJprfOWPjrceW
+																		SKgOQkY7wAAAAAAAAAAAAPW0NuwPesPGoNXkAAAAAAAP/9oACAECAAEFAP8AGn//2gAIAQMAAQUA
+																		/wAaf//aAAgBAQABBQD9oBKbBK5NoTuTMqUoYz1/SvRxnp+VKE+hO1OglaiCPJjrSyKDJe5QYoUO
+																		OFHkhMyghlhf1YRywn5QUmSFLjhWMUKfJe1SVpY/FirSSmpkEqrkgKDLAUWcAo6ACbSAQqBCqF/5
+																		QjVCdUCfSCkoAqXOBU+WCrWSCreQQpa0kR8BrS40810hpZQCq5oCgogKKoAmVwEIgEGgLgXP44uB
+																		FoKMQKfXBUtQFT0QVazQVdywVczXMLmlp/bFE6R1DMVLOAVWiAoaoCZCAg0D9haCnwgqaqCrVEFX
+																		c4FX8xSxOjd+uGF0rs7N4qVABVaYAigATWAeA5gKlgBVmmCLtAFaGZ1TwOid+mKN0js3P4qNEAVa
+																		oAihAAHPCI6pYQRZqgi9RBGnndUsTo3fm1pccygqFLgq1QBFEAAOeIR1SxAi1VBF+l0adBOaWn8s
+																		2oZHZtLgp1uCGIAAc8YjqmiBFysCNKkCNKmWO/GvEZZMqlwUavBBDwAc8gjoni6L1bo1aXRYiMUn
+																		4ZFTpzavBVh4GN4PJe3otQ9GlV6Nepw/zXjMkuTV4KEHBCzg8udnRfg6Nat0WI/+cv8AGTB935df
+																		gqRcDRweW4dFuLo1K/RrQfR6Hs4sHrOh4K7ODzbDOjRh6NmD0fRhb9pceH1Qj4IhwebK3ovx9GxD
+																		6mb9ZaLftPkR+qTPTB68146LrfWvH6vN+s+W3s2Sz1THofHmn4uD1rN9ajeTY47Jlt9VB6Hx5p+L
+																		fxqj1rjkmN/vl/FX484/Fv41PjZ/3yHckyneqh9D480/Fs+tR3rXd2TMdybJf6pu9N+PNd8XHetV
+																		/rTd2ak76z5Enqi/1GejzZDwXn+taT1cd9p4nfWTHm9Z8nRC7o82Z3BoSetib1K77SLGn9Zs3RWf
+																		0eYfiy/g0puDYn/nLm+kmXP0U5ehh6PLe7guS8GpPwac33k/iF//ADkybXRQn6IH9HlzycF+fg1r
+																		XBM/7yfzk2vqc210VJuhjujyZHcFufg0rXBq2vsfwgkMcmVd6KFrorzdAPR47jwWJuC/a4NW7wTS
+																		GST8c62Y35t3op2uiGUEA98YnimmAFy0ANK7waFoyP8AyBIOZf4s+90VLQIilBAPfEJ4ppgBbtAC
+																		/e4NO+SiST+ccjo3ZuiqN7oq2wRFMCAQfCLgFNMALVsAXr3Fo6CkeXu/TFK6J2dpKjoAqrcBUNgF
+																		NeD4DpAFNYAVq4AL18BaGipJHSO/XHI6N1DT4aWkCq18FQ2wVHOCmyArv6up0gCksAKe4ArV8BXd
+																		IBX9PpfI55/aCQami+M09UFVdIFQXwVFcBTLIKbMChICvsF0LoXQvsEZAE6cBPsgKW4Ap9ABWtMB
+																		XNUBWtB8hJJPgRzSRmrquaausFX1AVDpAqPQBTLwTbgQthf+sI2wnXAn3gpNABTaQCsagCtawCta
+																		rnGSZ8h8Rk0jFDpyMUGyFDsBRa4TNYJuqF/aBO1Qn6wUuuFNsBT7Km05Hp8sj/KbI9qbcnam6UwT
+																		daUL+4ena0pTtKYp1ydydI937//aAAgBAgIGPwA0/wD/2gAIAQMCBj8ANP8A/9oACAEBAQY/AOrB
+																		GLLEnk8nkgsTiydTCPqTabTabSxYsbTabTafMErSwoE2qsXyKCxYsWLFixYsWLDgfyNpUZKjQ0Sq
+																		xPJCgUCgsW6Viw4HA4G8UUao+tTETaFAoLaCw4HA2lJTLqUVhQKBRpHA4HBR26SxQoFAo0zgcDg/
+																		l9BJXYm1IoFGocDgbSkad1zrJoUCjVOBwPJLmS8eRQKBapjgcDx8eOVZNXFAo1jHA8krciRjAo1z
+																		MoGuP9CgWuY4P644wIWuYzKOGK/TEXYGZGS/RGIuwMyHwxF2BmXD2IXYGM9nsQuwMyPZ7ELsDGU/
+																		eGIuwMy4IxF2BmQzF/piLsDMjJ/vDEQtcxmU8f5FItcxyU4rIxkU61jkykeXIsW7CkWscjkeKd+V
+																		ZL2YyKRapjkcjyfMsWxSKdU5HI8U+equhJuRSKdQ5HI0nLKu76CyQpFIp0zkcjox5PpVQpFIpL6K
+																		45HI1Uq+pXFiTcikUly/WuXHI5Gk6srk+tVQxLJ+xfQpFJcv0rlxyORyNYv2VcvQ/L9CWToL6FJc
+																		uXLly5cuXLlxyP6GsXUrk9L8s+jcbjcbjcXNxuNxuH9EH09VGTL8JPJHC5LfX//Z" transform="matrix(1 0 0 1 848.5002 -14)">
+																					</image>
+																				</g>
+																			</mask>
+																			<g mask="url(#SVGID_1_)">
+																				<g>
+																					<g>
+																						<g>
+
+																						</g>
+																					</g>
+																				</g>
+																			</g>
+																		</g>
+																		<g>
+																			<defs>
+																				<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="479" y="330.2" width="315" height="315">
+																					<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+																					<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+																				</filter>
+																			</defs>
+																			<mask maskUnits="userSpaceOnUse" x="479" y="330.2" width="315" height="315" id="SVGID_2_">
+																				<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+
+																						<image overflow="visible" width="320" height="320" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+																		EAMCAwYAAASHAAAJdQAAC5b/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+																		Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+																		JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAUABQAMBIgACEQEDEQH/
+																		xACIAAEAAgMBAQAAAAAAAAAAAAAABQYBAgQDBwEBAAAAAAAAAAAAAAAAAAAAABAAAQUBAAEDBAMB
+																		AQAAAAAAAQACAwQFESFAMRIQIDBQIhQVgDIRAAIBAwIHAQEBAQAAAAAAAAABIRExAkAyECAwUFGB
+																		IkFhcZESAQAAAAAAAAAAAAAAAAAAAID/2gAMAwEAAhEDEQAAAPn4AAAAADfsODadkCr+1v6SmbXj
+																		comt90KB437mKLrb48gHfxmgAAAAAAAAADPeccjMTRDSsz3ET2SnsRvt37HFnsHHjtEd4y+pA8dn
+																		8SnRV84T5xHfQ4UqSQ4DAAAAAAAHptYjlsPZNHHJ9PQePttkxkAAAAGMjTx6cEXG2TnKTXvo0MfO
+																		PO01w8QAAAAPbWyHpZU4a9+24yAAAAAAAADGR48EpoVWs/QYQ+Z+NorZ5gAAZxIHdbeOzHtI6+oy
+																		AAAAAAAAAADGR5x0p5FQqX0atFBxIR4AB6WmHuRJTnNIm2QAAAAAAAAAAAAYyOSDskaUGrfQ6YRY
+																		G+ncT9vhrOdvRruAAAAAAAAAAAAAAY5+nQrtRvtXKBp3cInoO2FlsMVNnrkAAAAAAAAAAAAAAGM4
+																		OSvWeEPn0Dbqmel1qF4LJK8EiZAAAAAAAAAAAAAAABpEy8cUyl36jnreqReix93H2GQAAAAAAAAA
+																		AAAAAAY4e7iKvRb7RTN6oN6LT2cPcZAAAAAAAAAAAAAAABji7eArlFu1GPK80G6lzkImVNwAAAAA
+																		AAAAAAAAAAax0hElbo9vpZ52yozp9Cm6vYjsYyAAAAAAAAAAAAAAMZweMJK10rdUmoMdnHsfQLRQ
+																		beWLfm6DIAAAAAAAAAAAAAGm3McVWmqgQHHtqASd0+d2kv8AJVqcOxjIAAAAAAAAAAAAMGkb0wRH
+																		UyYrBoAB3cOS+Wb5vbS4e8RJHsxkAAAAAAAAAAGBz7Rh5VrpqhxcWcAAAG9hrfqfSZ357ZS2esRI
+																		HQxkAAAAAAAAGB46xxtBK2eUBt5AAAAAHrP1vc+izfzexF36a1Jkpnm9jdgZAAAAYGca+B7c3NFn
+																		XB8teOiC10AAAAAAAM9vCLXN/PJA+j99Bli5e1X7CwZh/Yk0fsdzh1O/WO8SU8YnjJjghYkm4SH4
+																		Dq48AAAAAAAAAADbq4xNyFUyXfpofqX30oPqXnzpXkXTlqXkWaPhcHZy6gAAAAAD/9oACAECAAEF
+																		AP8ApD//2gAIAQMAAQUA/wCkP//aAAgBAQABBQD87Y3uTac7k3Mmcm5EhX+M9f4z07IkCdmTBOpz
+																		tTo3t9YyKR5hzJHqDGUOOFHkBMyQm5YQywv8sJ2UE/JClyApscKfGU2ZIxPikYfTRwySGrlOcauS
+																		Aq+WAoc0BR54CZRCbTCFQL+qF/VCNQJ1MJ9EKTPBU2aCrGWCrWSCrWU5pkhkjPomtLjUzXyGnlAK
+																		rmAKCgAoqYCZWATYQEGAL4hcH14F8QjGCnQgp9YFS0wVPQBVrMBVzKBVvNfGXNLT+eKF8rqGUqeY
+																		Aq1ABQ1AFHAAgwBc/HxFgKkgBU1QFWaAKuZoKv5alhfE78tes+Z2dl8FPPAVamAoq4CawD0LmAqW
+																		uCrNMFXM8FaOWCLFZ8Lvx1q7pn5uaAKVEAV6oAjiAAHPRkAqSIEWKoIu0QRpZvVZruhf+GGJ0r8v
+																		OAVGkAK1YAMjAHpnxgizWBF6kCNTPBU0Ton/AHtaXHKoLPp8FWuAI2AD1EjARar9GhT6NSgnNLT9
+																		2bUMj8ynwU63BFGAPVSxgi5W6NKn0aVQxv8AthjMkmVT4KFbgrxcAHPVkdFiLov1ujVp9E0Zjk+z
+																		KqlzsyrwVIeBjeD1j29FuHo063Rq1S131iYXvyKvBnwcEEfB66ePo0IOjXq9ErPg/wCmZD85cuvw
+																		U4uBg4PXPb0XIujUr9GlD8JfpiwLNh4KzOAevKss6NKHo2YPoxvyfjQ+M+PxC3g/QTN6NCPo2YfD
+																		2/F9RvynyIvFFniMcH6CQdF5njXi8W2/GbNb2bJZ4pt8N9v0Dva43xrM8aTeTZDey5TfFQeB7foD
+																		7Wx41W+NZvJcb/3ljxV9v0J9rftqDxsD+eMf55Z8Vfb9Cfa37ah8bB/nku5LlO8VD4Ht+gPtbPjV
+																		d41n9lzXfGfJf4pu8N9v0Dva47xrP8aLuz1XfGbIl8UX9EZ6P0Eh4Lz/ABry+LTvlMw/F+NN4z5O
+																		iF3R+gndwaEnBsTeHnr1jWFmzdFZ/QPXn2tP4NKbg2bHfrmzfCXKsdFKXoY7o9dI7guy8GrY4NGX
+																		5y/SN5Y/ItdGfP0QSdHrrEnBoT8Gva8SO+b/AK5VosdmWuipN0Md0eskdwXJ+DTtcGpZL3fZFIY3
+																		5N3ooWeivL0A9HqieCxNwX7PBq3OCV5kf9udaMT8270U7IIhlBHqSeKaUAXLPBpXeDQtGV/3AkHL
+																		v8Wfd6KlnojkBHqJZQBbsgDQu8GneJJJJ++KR0bsvQ6qF0EVrIIjlBHpSeKWUAWbIAvXeDT0OKSQ
+																		yO/DXndC/N0gRSvgqtbBEUwIBB9GSApZgBZtgK7eAWjogCed0zvxwWHwuz9TqpaAKrXARFYBTXg+
+																		hdIAprACs3AFd0AFoafFPO+Z35Y5XRuoanDS0gRWvgqG2Co7AKbICuj8fQnSAKSwAp7gCs3wFd0g
+																		Fe0+mSR0h/OCQaui+I0tYFVdMFQaAKiugploFNnBQkBXyC6F0LoXQvkEZAE6cBPtAKW6Ap9ABWtM
+																		BXdYBWdB8pJJPoo5XxmtqvYauuCq+qCodMFR6AKZeCbdCFwL+2F/bCNwJ10J94KTQAU2mArGqArW
+																		uArOo95fK+Q+ma97DDoyxqDZ4odkKPYCZrBN1ghqhHVCdrBP1gpdgKbZCn2eqbRlkTnvcfVhzgm2
+																		ZmpuhO1DUmCGvIEdeQo6kxTtCcp1mZyLnH0H/9oACAECAgY/AEh//9oACAEDAgY/AEh//9oACAEB
+																		AQY/AOvCZbhNT9P0ivCxKes+UfRtNptNpYsWNptNptNp8n0tPTFCeSqL5FBYsWLFixYsWLFiw4H8
+																		jeKofS0dEqsTyQvkUCgsW6diw4HA/kbxXoo1R6CmK9ibQoFBYt17FhwOBtKSmS99ZJKBQKBQW0dh
+																		wOBwNNR1EkoFAoFGncDgcDTUdJYr2KBQKNS4HA4Hi/XQSV2JtCgUatwOBtIad1zrJoUCjWuBwPJL
+																		mWKMYFAtaxwZQPH/AJyrJq4oFr2OB5JW5FiYwIWvY4MoHj441FAuwscFeOLoIXYWMydOCXlmIuxs
+																		yGvDMTEXY2ZGXDEXY2ZcK/0xF2NmRU9iF2NjPZ7ELsbGeyn9MRdjZkU4Yi7GzLhizEXY2ZGTE/DM
+																		RdjZkN+XwSqIXYWMarfjQUi7CzKSnFZL8MZFItexyZSPLzyLFuwpFr2OR4p35VkjGRSLWscmUjyf
+																		MsW/8FIp1rkcjxT56q6Em5FIp1bkcjScsq7voLJCkUinUuRyOR5PpJqwpFIp07kcjkbdupVOBSKR
+																		SX0dxyORyVdutXFiTcikUly/XuXHI5Gk6srk9BVQxLJx5F9CkUly/TuXHI5H9DWLgq76OuLEsnQX
+																		0L6Lly5cuXLly5cuXH9D+hrF1K5PT1xdCSXQ3G43G4ubjcbjcbiiZDoVyddZDaIyL8JqRXhcnIlt
+																		6D//2Q==" transform="matrix(1 0 0 1 476.5002 328)">
+																					</image>
+																				</g>
+																			</mask>
+																			<g mask="url(#SVGID_2_)">
+																				<g>
+																					<g>
+																						<g>
+
+																						</g>
+																					</g>
+																				</g>
+																			</g>
+																		</g>
+																		<g>
+																			<defs>
+																				<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="-38" y="100.2" width="291" height="291">
+																					<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+																					<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+																				</filter>
+																			</defs>
+																			<mask maskUnits="userSpaceOnUse" x="-38" y="100.2" width="291" height="291" id="SVGID_3_">
+																				<g filter="url(#Adobe_OpacityMaskFilter_2_)">
+
+																						<image overflow="visible" width="296" height="296" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+																		EAMCAwYAAAQ/AAAIwgAACqX/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+																		Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+																		JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIASgBKAMBIgACEQEDEQH/
+																		xACFAAEAAgMBAQAAAAAAAAAAAAAABQYBAwQCBwEBAAAAAAAAAAAAAAAAAAAAABAAAQUBAAICAgID
+																		AQAAAAAAAQACAwQFEUAhMRIgMBAVgDITFBEAAgEDAgcBAQAAAAAAAAAAAAEhETECQDIQIDBQQYEi
+																		YRISAQAAAAAAAAAAAAAAAAAAAID/2gAMAwEAAhEDEQAAAPn4AAAABtNSTkivbbZ2FN23XaUVe8FA
+																		0/QOcoWu6x5WknwmoAAAAAAAAAyY29s+RE3MShDyEt0EZvkfRw++wcmOwcGqUwQvJY9RUoq9cJ84
+																		i/o8IU1JRxgAAAAAA2GJrdZDRN9EkaOvbkxnIAAAAYyPOvdgjoyx8xSq59Ggz534scCagAAADJ6s
+																		Gm1HudSRjeyAAAAAAAAMZHPGzOkqFY+hwB878TsGYAAAkeO1nfZOeaPe9kAAAAAAAAAAYyOeKnOU
+																		pVQ+lVQp7bqABsJW5Q9sO+Q1bjIAAAAAAAAAAAHn1gjq5boU+cw1yqJrAko2yFkssVPHR6xkAAAA
+																		AAAAAAAAA8x0lzFQpX0WmFbB7uNUuxZJmOkz0AAAAAAAAAAAAABq2+SEp94qZQ24bbzS7yWOQ4u0
+																		yAAAAAAAAAAAAABjOCPq9rrJQG0er1Q70Wfs4u0yAAAAAAAAAAAAABjODirVjrJSXkarxQroXKRi
+																		JU9gAAAAAAAAAAAAAefXgj6tY6oVBpGu20+wH0CarNhOtjIAAAAAAAAAAAABjVt5CKp9kpZBvAd/
+																		BsPoFnoltLB7595kAAAAAAAAAAAAweYzthCGpc/VDwACXuXzq1F+ka3NnYxkAAAAAAAAAAAeM8hz
+																		1uQqhExOzWAAO/gyXyy/OLUXLohZM6GMgAAAAAAAADDnMRPuvmipdUOYAAAB6nq/7Pok986spcui
+																		CkjsePRkAAAAAAwZ8+eY9xniCPVYQhjyAAAAAHqYhcl8m/m08X7sp8oWL1FdR150+z285MsDLzg9
+																		NOk6tHFwEhGRsKSFd5OIz5AAAAAAABs1iVmaj7PoEh87kD6B00bsLl7qe0tGK15LJprfOWPjrceW
+																		SKgOQkY7wAAAAAAAAAAAAPW0NuwPesPGoNXkAAAAAAAP/9oACAECAAEFAP8AGn//2gAIAQMAAQUA
+																		/wAaf//aAAgBAQABBQD9oBKbBK5NoTuTMqUoYz1/SvRxnp+VKE+hO1OglaiCPJjrSyKDJe5QYoUO
+																		OFHkhMyghlhf1YRywn5QUmSFLjhWMUKfJe1SVpY/FirSSmpkEqrkgKDLAUWcAo6ACbSAQqBCqF/5
+																		QjVCdUCfSCkoAqXOBU+WCrWSCreQQpa0kR8BrS40810hpZQCq5oCgogKKoAmVwEIgEGgLgXP44uB
+																		FoKMQKfXBUtQFT0QVazQVdywVczXMLmlp/bFE6R1DMVLOAVWiAoaoCZCAg0D9haCnwgqaqCrVEFX
+																		c4FX8xSxOjd+uGF0rs7N4qVABVaYAigATWAeA5gKlgBVmmCLtAFaGZ1TwOid+mKN0js3P4qNEAVa
+																		oAihAAHPCI6pYQRZqgi9RBGnndUsTo3fm1pccygqFLgq1QBFEAAOeIR1SxAi1VBF+l0adBOaWn8s
+																		2oZHZtLgp1uCGIAAc8YjqmiBFysCNKkCNKmWO/GvEZZMqlwUavBBDwAc8gjoni6L1bo1aXRYiMUn
+																		4ZFTpzavBVh4GN4PJe3otQ9GlV6Nepw/zXjMkuTV4KEHBCzg8udnRfg6Nat0WI/+cv8AGTB935df
+																		gqRcDRweW4dFuLo1K/RrQfR6Hs4sHrOh4K7ODzbDOjRh6NmD0fRhb9pceH1Qj4IhwebK3ovx9GxD
+																		6mb9ZaLftPkR+qTPTB68146LrfWvH6vN+s+W3s2Sz1THofHmn4uD1rN9ajeTY47Jlt9VB6Hx5p+L
+																		fxqj1rjkmN/vl/FX484/Fv41PjZ/3yHckyneqh9D480/Fs+tR3rXd2TMdybJf6pu9N+PNd8XHetV
+																		/rTd2ak76z5Enqi/1GejzZDwXn+taT1cd9p4nfWTHm9Z8nRC7o82Z3BoSetib1K77SLGn9Zs3RWf
+																		0eYfiy/g0puDYn/nLm+kmXP0U5ehh6PLe7guS8GpPwac33k/iF//ADkybXRQn6IH9HlzycF+fg1r
+																		XBM/7yfzk2vqc210VJuhjujyZHcFufg0rXBq2vsfwgkMcmVd6KFrorzdAPR47jwWJuC/a4NW7wTS
+																		GST8c62Y35t3op2uiGUEA98YnimmAFy0ANK7waFoyP8AyBIOZf4s+90VLQIilBAPfEJ4ppgBbtAC
+																		/e4NO+SiST+ccjo3ZuiqN7oq2wRFMCAQfCLgFNMALVsAXr3Fo6CkeXu/TFK6J2dpKjoAqrcBUNgF
+																		NeD4DpAFNYAVq4AL18BaGipJHSO/XHI6N1DT4aWkCq18FQ2wVHOCmyArv6up0gCksAKe4ArV8BXd
+																		IBX9PpfI55/aCQami+M09UFVdIFQXwVFcBTLIKbMChICvsF0LoXQvsEZAE6cBPsgKW4Ap9ABWtMB
+																		XNUBWtB8hJJPgRzSRmrquaausFX1AVDpAqPQBTLwTbgQthf+sI2wnXAn3gpNABTaQCsagCtawCta
+																		rnGSZ8h8Rk0jFDpyMUGyFDsBRa4TNYJuqF/aBO1Qn6wUuuFNsBT7Km05Hp8sj/KbI9qbcnam6UwT
+																		daUL+4ena0pTtKYp1ydydI937//aAAgBAgIGPwA0/wD/2gAIAQMCBj8ANP8A/9oACAEBAQY/AOrB
+																		GLLEnk8nkgsTiydTCPqTabTabSxYsbTabTafMErSwoE2qsXyKCxYsWLFixYsWLDgfyNpUZKjQ0Sq
+																		xPJCgUCgsW6Viw4HA4G8UUao+tTETaFAoLaCw4HA2lJTLqUVhQKBRpHA4HBR26SxQoFAo0zgcDg/
+																		l9BJXYm1IoFGocDgbSkad1zrJoUCjVOBwPJLmS8eRQKBapjgcDx8eOVZNXFAo1jHA8krciRjAo1z
+																		MoGuP9CgWuY4P644wIWuYzKOGK/TEXYGZGS/RGIuwMyHwxF2BmXD2IXYGM9nsQuwMyPZ7ELsDGU/
+																		eGIuwMy4IxF2BmQzF/piLsDMjJ/vDEQtcxmU8f5FItcxyU4rIxkU61jkykeXIsW7CkWscjkeKd+V
+																		ZL2YyKRapjkcjyfMsWxSKdU5HI8U+equhJuRSKdQ5HI0nLKu76CyQpFIp0zkcjox5PpVQpFIpL6K
+																		45HI1Uq+pXFiTcikUly/WuXHI5Gk6srk+tVQxLJ+xfQpFJcv0rlxyORyNYv2VcvQ/L9CWToL6FJc
+																		uXLly5cuXLlxyP6GsXUrk9L8s+jcbjcbjcXNxuNxuH9EH09VGTL8JPJHC5LfX//Z" transform="matrix(1 0 0 1 -40.4998 98)">
+																					</image>
+																				</g>
+																			</mask>
+																			<g mask="url(#SVGID_3_)">
+																				<g>
+																					<g>
+																						<g>
+
+																						</g>
+																					</g>
+																				</g>
+																			</g>
+																		</g>
+																		</svg>
+
+					<article class="first">
+						<h2>DESIGN WORK</h2>
+
+					</article>
+
+					<article class="second">
+						<h2>GREAT FEEDBACK</h2>
+
+					</article>
+
+					<article class="third">
+						<h2>BETTER DESIGN WORK</h2>
+					</article>
+				</div>
+			</div>
+
+
+			<div class="clearfix"> </div>
+		</div>
+		<!-- end process -->
+		<!-- skillll -->
+		<div class="section">
+			<h1 class='titletext'> MY WEAPONS</h1>
+			<div>
+				<div class="flask" tabindex="1">
+					<div class="containing">
+						<div class="liquid">
+							<div class="bubbles"></div>
+						</div>
+					</div>
+				</div>
+				<div class="flask" tabindex="2">
+					<div class="containing">
+						<div class="liquid">
+							<div class="bubbles"></div>
+						</div>
+					</div>
+				</div>
+				<div class="flask" tabindex="3">
+					<div class="containing">
+						<div class="liquid">
+							<div class="bubbles"></div>
+						</div>
+					</div>
+				</div>
+				<div class="flask" tabindex="4">
+					<div class="containing">
+						<div class="liquid">
+							<div class="bubbles"></div>
+						</div>
+					</div>
+				</div>
+				<div class="flask" tabindex="5">
+					<div class="containing">
+						<div class="liquid">
+							<div class="bubbles"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+
+
+
+		<!-- end skill -->
+		<!--  contact-->
+		<div class="section">
+			<div id="done-animation">
+				<svg id="rainbow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 180"><path id="red" d="M270,170a100,100,0,0,0-200,0" style="fill:none;stroke:#FF9E80;stroke-linecap:round;stroke-width:20px"/><path id="yellow" d="M290,170a120,120,0,0,0-240,0" style="fill:none;stroke:#FFE57F;stroke-linecap:round;stroke-width:20px"/><path id="blue" d="M310,170a140,140,0,0,0-280,0" style="fill:none;stroke:#80D8FF;stroke-linecap:round;stroke-width:20px"/><path id="purple" d="M330,170a160,160,0,0,0-320,0" style="fill:none;stroke:#BF9AFF;stroke-linecap:round;stroke-width:20px"/></svg>
+				<svg id="facerainbow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 136">
+					<title>face</title>
+					<path d="M68,134A66,66,0,1,0,2,68,66,66,0,0,0,68,134Z" style="fill:#fbfcfd;stroke:#A1ACBA;stroke-width:4px"></path>
+					<path d="M109.4,19.2A64.7,64.7,0,0,1,132,68.5,63.8,63.8,0,0,1,68.5,132a64.7,64.7,0,0,1-49.3-22.6A64.8,64.8,0,0,0,61.5,125,63.8,63.8,0,0,0,125,61.5,64.8,64.8,0,0,0,109.4,19.2Z" style="fill:#ECF1FF;isolation:isolate"></path>
+					<path d="M49.1,62.1a10,10,0,0,0-14.1,0" style="fill:none;stroke:#A1ACBA;stroke-linecap:round;stroke-width:5px"></path>
+					<path d="M101.1,62.1a10,10,0,0,0-14.1,0" style="fill:none;stroke:#A1ACBA;stroke-linecap:round;stroke-width:5px"></path>
+					<path d="M42,88a36.8,36.8,0,0,0,52,0" style="fill:none;stroke:#A1ACBA;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"></path>
+					</svg>
+				<svg id="stars" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205 77"><defs><style>.a, .a1{fill:#fff;}</style></defs><title>stars</title><path class="a1" d="M71.2,22.9A22.3,22.3,0,0,1,57.1,8.8a1.2,1.2,0,0,0-2.3,0A22.3,22.3,0,0,1,40.8,22.9a1.2,1.2,0,0,0,0,2.3A22.3,22.3,0,0,1,54.9,39.2a1.2,1.2,0,0,0,2.3,0A22.3,22.3,0,0,1,71.2,25.1a1.2,1.2,0,0,0,0-2.3" transform="translate(0 0)"/><path class="a1" d="M204.2,50.9a22.3,22.3,0,0,1-14.1-14.1,1.2,1.2,0,0,0-2.3,0,22.3,22.3,0,0,1-14.1,14.1,1.2,1.2,0,0,0,0,2.3,22.3,22.3,0,0,1,14.1,14.1,1.2,1.2,0,0,0,2.3,0,22.3,22.3,0,0,1,14.1-14.1,1.2,1.2,0,0,0,0-2.3" transform="translate(0 0)"/><path class="a" d="M155.4,11.1A16.7,16.7,0,0,1,144.9.6a0.9,0.9,0,0,0-1.7,0,16.7,16.7,0,0,1-10.5,10.5,0.9,0.9,0,0,0,0,1.7,16.7,16.7,0,0,1,10.5,10.5,0.9,0.9,0,0,0,1.7,0,16.7,16.7,0,0,1,10.5-10.5,0.9,0.9,0,0,0,0-1.7" transform="translate(0 0)"/><path class="a" d="M15.6,68.4a11.2,11.2,0,0,1-7-7,0.6,0.6,0,0,0-1.1,0,11.2,11.2,0,0,1-7,7,0.6,0.6,0,0,0,0,1.1,11.2,11.2,0,0,1,7,7,0.6,0.6,0,0,0,1.1,0,11.2,11.2,0,0,1,7-7,0.6,0.6,0,0,0,0-1.1" transform="translate(0 0)"/></svg>
+				<svg id="room" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 391 230"><defs><radialGradient id="radial-gradient" cx="-109.23" cy="481.9" r="0.48" gradientTransform="matrix(391, 0, 0, -230, 42900, 111068)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d8dadf"/><stop offset="1" stop-color="#edeff4" stop-opacity="0"/></radialGradient></defs><title>Rectangle 73</title><rect id="Rectangle-73" width="391" height="230" style="fill:url(#radial-gradient)"/></svg>
+
+				<svg id="thumbup" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 54"><title>thumbup</title><path d="M10,52a8.1,8.1,0,0,1-7.9-7.3,8.3,8.3,0,0,1,2-6.7A8.7,8.7,0,0,1,2,32a8.5,8.5,0,0,1,2.1-6A9.7,9.7,0,0,1,2,19.5c0-4.2,4.1-7.3,7.9-7.5H22.4a1.1,1.1,0,0,0,.3-0.9V10.9a8.4,8.4,0,0,1,2.1-6.4A7.1,7.1,0,0,1,30.1,2a8,8,0,0,1,8,8V38A13.9,13.9,0,0,1,24.3,52H10Z" transform="translate(-0.02)" style="fill:#fbfbfc"></path><path d="M23,11c0-.2.4-4.9,1.8-6.5A7.1,7.1,0,0,1,30.1,2a8,8,0,0,1,8,8V38c0,7.9-7.2,14-15.1,14V11Z" transform="translate(-0.02)" style="fill:#ECF1FF;isolation:isolate"></path><path d="M30.1,0a9.1,9.1,0,0,0-6.7,3.2A10.4,10.4,0,0,0,20.7,10H9.8a11.2,11.2,0,0,0-6.2,2.5,9,9,0,0,0-3.5,7A12.5,12.5,0,0,0,1.7,26,11.1,11.1,0,0,0,.1,32a11.4,11.4,0,0,0,1.6,6A10.5,10.5,0,0,0,.1,45,10.1,10.1,0,0,0,10,54H24.1a15.8,15.8,0,0,0,16-15.6q0-.2,0-0.4V10a10,10,0,0,0-10-10m0,4a6,6,0,0,1,6,6V38A11.8,11.8,0,0,1,24.5,50H10a6.1,6.1,0,0,1-5.9-5.5c-0.4-3.2,1.5-6.3,4.7-6.7H8.3c-2.7,0-4.2-2.6-4.2-5.8s1.6-5.8,4.4-5.8H8.8c-3.3-.2-4.7-3.3-4.7-6.7s3.4-5.4,6-5.5H22.4c1.5,0,2.3-1.4,2.3-2.9V10.8C24.3,7.3,27.1,4,30.1,4" transform="translate(-0.02)" style="fill:#A1ACBA"></path></svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 12" id="shadowrainbow"><title>shadow</title><ellipse style="fill:#e1e4ec"cx="50" cy="6" rx="50" ry="6"/></svg>
+			</div>
+
+			<p class="textcontact">WHY NOT </p>
+			<p class="gmailtext">uxphuchung@gmail.com</p>
+			<a href="https://www.upwork.com/o/profiles/users/_~01eb7bfc9806710d5b/">Visit upwork proflie</a>
+
+			<div class="clearfix"> </div>
+		</div>
+
+		<!-- end contact -->
+
+</body>
+
 </html>
